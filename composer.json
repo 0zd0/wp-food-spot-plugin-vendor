@@ -8,63 +8,6 @@
     ],
     "require": {
         "php": ">=8.2.0",
-        "ext-json": "*",
-        "onepix/carbon-fields": "^1.0",
-        "dompdf/dompdf": "^3.0",
-        "guzzlehttp/guzzle": "^7.9",
-        "php-di/php-di": "^7.0.7",
-        "dbout/wp-orm": "^4.3",
-        "robmorgan/phinx": "^0.16",
-        "ramsey/uuid": "^4.7",
-        "symfony/cache": "^7.2"
-    },
-    "extra": {
-        "strauss": {
-            "target_directory": "vendor-prefixed",
-            "namespace_prefix": "Onepix\\FoodSpotVendor\\",
-            "classmap_prefix": "Onepix_FoodSpotVendor_",
-            "constant_prefix": "OFSV_",
-            "packages": [
-            ],
-            "update_call_sites": false,
-            "override_autoload": {
-            },
-            "exclude_from_copy": {
-                "packages": [
-                ],
-                "namespaces": [
-                ],
-                "file_patterns": [
-                ]
-            },
-            "exclude_from_prefix": {
-                "packages": [
-                ],
-                "namespaces": [
-                ],
-                "file_patterns": [
-                ]
-            },
-            "namespace_replacement_patterns": {
-            },
-            "delete_vendor_packages": false,
-            "delete_vendor_files": false
-        }
-    },
-    "scripts": {
-        "prefix-namespaces": [
-            "sh -c 'test -f ./bin/strauss.phar || curl -o bin/strauss.phar -L -C - https://github.com/BrianHenryIE/strauss/releases/latest/download/strauss.phar'",
-            "@php bin/strauss.phar",
-            "@composer dump-autoload"
-        ],
-        "post-install-cmd": [
-            "@prefix-namespaces"
-        ],
-        "post-update-cmd": [
-            "@prefix-namespaces"
-        ],
-        "post-autoload-dump": [
-            "@php bin/strauss.phar include-autoloader"
-        ]
+        "ext-json": "*"
     }
 }

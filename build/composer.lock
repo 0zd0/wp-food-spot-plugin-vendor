@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8b9ef8fd92012fcf875d654cdd6c9a48",
     "packages": [
         {
             "name": "brick/math",
             "version": "0.12.3",
-            "version_normalized": "0.12.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
@@ -23,12 +28,10 @@
                 "phpunit/phpunit": "^10.1",
                 "vimeo/psalm": "6.8.8"
             },
-            "time": "2025-02-28T13:11:00+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Brick\\Math\\": "src/"
+                    "Brick\\Math\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -61,12 +64,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../brick/math"
+            "time": "2025-02-28T13:11:00+00:00"
         },
         {
             "name": "cakephp/chronos",
             "version": "3.1.0",
-            "version_normalized": "3.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
@@ -89,12 +91,10 @@
                 "cakephp/cakephp-codesniffer": "^5.0",
                 "phpunit/phpunit": "^10.1.0 || ^11.1.3"
             },
-            "time": "2024-07-18T03:18:04+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Cake\\Chronos\\": "src/"
+                    "Cake\\Chronos\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -123,12 +123,11 @@
                 "issues": "https://github.com/cakephp/chronos/issues",
                 "source": "https://github.com/cakephp/chronos"
             },
-            "install-path": "../cakephp/chronos"
+            "time": "2024-07-18T03:18:04+00:00"
         },
         {
             "name": "cakephp/core",
             "version": "5.2.5",
-            "version_normalized": "5.2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/core.git",
@@ -154,20 +153,18 @@
                 "cakephp/event": "To use PluginApplicationInterface or plugin applications.",
                 "league/container": "To use Container and ServiceProvider classes"
             },
-            "time": "2025-04-19T12:34:03+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-5.x": "5.2.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Cake\\Core\\": "."
+                    "Cake\\Core\\": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -193,12 +190,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/core"
             },
-            "install-path": "../cakephp/core"
+            "time": "2025-04-19T12:34:03+00:00"
         },
         {
             "name": "cakephp/database",
             "version": "5.2.5",
-            "version_normalized": "5.2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/database.git",
@@ -225,17 +221,15 @@
                 "cakephp/i18n": "If you are using locale-aware datetime formats.",
                 "cakephp/log": "If you want to use query logging without providing a logger yourself."
             },
-            "time": "2025-06-18T02:55:13+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-5.x": "5.2.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Cake\\Database\\": "."
+                    "Cake\\Database\\": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -263,12 +257,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/database"
             },
-            "install-path": "../cakephp/database"
+            "time": "2025-06-18T02:55:13+00:00"
         },
         {
             "name": "cakephp/datasource",
             "version": "5.2.5",
-            "version_normalized": "5.2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/datasource.git",
@@ -295,17 +288,15 @@
                 "cakephp/collection": "If you decide to use ResultSetInterface.",
                 "cakephp/utility": "If you decide to use EntityTrait."
             },
-            "time": "2025-04-26T23:00:26+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-5.x": "5.2.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Cake\\Datasource\\": "."
+                    "Cake\\Datasource\\": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -333,12 +324,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/datasource"
             },
-            "install-path": "../cakephp/datasource"
+            "time": "2025-04-26T23:00:26+00:00"
         },
         {
             "name": "cakephp/utility",
             "version": "5.2.5",
-            "version_normalized": "5.2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/utility.git",
@@ -358,20 +348,18 @@
                 "ext-intl": "To use Text::transliterate() or Text::slug()",
                 "lib-ICU": "To use Text::transliterate() or Text::slug()"
             },
-            "time": "2025-05-21T14:35:19+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-5.x": "5.2.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Cake\\Utility\\": "."
+                    "Cake\\Utility\\": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -400,12 +388,11 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/utility"
             },
-            "install-path": "../cakephp/utility"
+            "time": "2025-05-21T14:35:19+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
             "version": "3.2.0",
-            "version_normalized": "3.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
@@ -428,12 +415,10 @@
                 "nesbot/carbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
-            "time": "2024-02-09T16:56:22+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
+                    "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -472,12 +457,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../carbonphp/carbon-doctrine-types"
+            "time": "2024-02-09T16:56:22+00:00"
         },
         {
             "name": "dbout/wp-orm",
             "version": "v4.3.0",
-            "version_normalized": "4.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dimitriBouteille/wp-orm.git",
@@ -505,7 +489,6 @@
                 "szepeviktor/phpstan-wordpress": "^2.0",
                 "yoast/phpunit-polyfills": "^3.0"
             },
-            "time": "2025-03-11T17:35:24+00:00",
             "type": "package",
             "extra": {
                 "phpstan": {
@@ -515,13 +498,12 @@
                 },
                 "wordpress-install-dir": "web/wordpress"
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Dbout\\WpOrm\\": "src/"
+                    "Dbout\\WpOrm\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -552,12 +534,11 @@
                 "issues": "https://github.com/dimitriBouteille/wp-orm/issues",
                 "source": "https://github.com/dimitriBouteille/wp-orm/"
             },
-            "install-path": "../dbout/wp-orm"
+            "time": "2025-03-11T17:35:24+00:00"
         },
         {
             "name": "doctrine/inflector",
             "version": "2.0.10",
-            "version_normalized": "2.0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
@@ -580,12 +561,10 @@
                 "phpunit/phpunit": "^8.5 || ^9.5",
                 "vimeo/psalm": "^4.25 || ^5.4"
             },
-            "time": "2024-02-18T20:23:39+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -646,12 +625,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../doctrine/inflector"
+            "time": "2024-02-18T20:23:39+00:00"
         },
         {
             "name": "dompdf/dompdf",
             "version": "v3.1.0",
-            "version_normalized": "3.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
@@ -686,12 +664,10 @@
                 "ext-imagick": "Improves image processing performance",
                 "ext-zlib": "Needed for pdf stream compression"
             },
-            "time": "2025-01-15T14:09:04+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Dompdf\\": "src/"
+                    "Dompdf\\": "src/"
                 },
                 "classmap": [
                     "lib/"
@@ -713,12 +689,11 @@
                 "issues": "https://github.com/dompdf/dompdf/issues",
                 "source": "https://github.com/dompdf/dompdf/tree/v3.1.0"
             },
-            "install-path": "../dompdf/dompdf"
+            "time": "2025-01-15T14:09:04+00:00"
         },
         {
             "name": "dompdf/php-font-lib",
             "version": "1.0.1",
-            "version_normalized": "1.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/php-font-lib.git",
@@ -737,12 +712,10 @@
             "require-dev": {
                 "symfony/phpunit-bridge": "^3 || ^4 || ^5 || ^6"
             },
-            "time": "2024-12-02T14:37:59+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\FontLib\\": "src/FontLib"
+                    "FontLib\\": "src/FontLib"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -761,12 +734,11 @@
                 "issues": "https://github.com/dompdf/php-font-lib/issues",
                 "source": "https://github.com/dompdf/php-font-lib/tree/1.0.1"
             },
-            "install-path": "../dompdf/php-font-lib"
+            "time": "2024-12-02T14:37:59+00:00"
         },
         {
             "name": "dompdf/php-svg-lib",
             "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/php-svg-lib.git",
@@ -786,12 +758,10 @@
             "require-dev": {
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5"
             },
-            "time": "2024-04-29T13:26:35+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Svg\\": "src/Svg"
+                    "Svg\\": "src/Svg"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -810,12 +780,11 @@
                 "issues": "https://github.com/dompdf/php-svg-lib/issues",
                 "source": "https://github.com/dompdf/php-svg-lib/tree/1.0.0"
             },
-            "install-path": "../dompdf/php-svg-lib"
+            "time": "2024-04-29T13:26:35+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
             "version": "7.9.3",
-            "version_normalized": "7.9.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
@@ -851,7 +820,6 @@
                 "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
-            "time": "2025-03-27T13:37:11+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -859,13 +827,12 @@
                     "forward-command": false
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions_include.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\GuzzleHttp\\": "src/"
+                    "GuzzleHttp\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -939,12 +906,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../guzzlehttp/guzzle"
+            "time": "2025-03-27T13:37:11+00:00"
         },
         {
             "name": "guzzlehttp/promises",
             "version": "2.2.0",
-            "version_normalized": "2.2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
@@ -963,7 +929,6 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20"
             },
-            "time": "2025-03-27T13:27:01+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -971,10 +936,9 @@
                     "forward-command": false
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\GuzzleHttp\\Promise\\": "src/"
+                    "GuzzleHttp\\Promise\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1025,12 +989,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../guzzlehttp/promises"
+            "time": "2025-03-27T13:27:01+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
             "version": "2.7.1",
-            "version_normalized": "2.7.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -1060,7 +1023,6 @@
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
-            "time": "2025-03-27T12:30:47+00:00",
             "type": "library",
             "extra": {
                 "bamarni-bin": {
@@ -1068,10 +1030,9 @@
                     "forward-command": false
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\GuzzleHttp\\Psr7\\": "src/"
+                    "GuzzleHttp\\Psr7\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1144,12 +1105,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../guzzlehttp/psr7"
+            "time": "2025-03-27T12:30:47+00:00"
         },
         {
             "name": "illuminate/bus",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -1171,17 +1131,15 @@
             "suggest": {
                 "illuminate/queue": "Required to use closures when chaining jobs (^7.0)."
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Bus\\": ""
+                    "Illuminate\\Bus\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1200,12 +1158,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/bus"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/collections",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -1226,21 +1183,19 @@
             "suggest": {
                 "symfony/var-dumper": "Required to use the dump method (^7.0)."
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "functions.php",
                     "helpers.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Support\\": ""
+                    "Illuminate\\Support\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1259,12 +1214,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/collections"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/conditionable",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -1279,17 +1233,15 @@
             "require": {
                 "php": "^8.0.2"
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Support\\": ""
+                    "Illuminate\\Support\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1308,12 +1260,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/conditionable"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/container",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -1333,17 +1284,15 @@
             "provide": {
                 "psr/container-implementation": "1.1|2.0"
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Container\\": ""
+                    "Illuminate\\Container\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1362,12 +1311,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/container"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/contracts",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -1384,14 +1332,12 @@
                 "psr/container": "^1.1.1|^2.0.1",
                 "psr/simple-cache": "^1.0|^2.0|^3.0"
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Illuminate\\Contracts\\": ""
@@ -1413,12 +1359,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/contracts"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/database",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
@@ -1450,17 +1395,15 @@
                 "illuminate/pagination": "Required to paginate the result set (^11.0).",
                 "symfony/finder": "Required to use Eloquent model factories (^7.0)."
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Database\\": ""
+                    "Illuminate\\Database\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1485,12 +1428,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/database"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/events",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -1511,20 +1453,18 @@
                 "illuminate/support": "^11.0",
                 "php": "^8.2"
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Events\\": ""
+                    "Illuminate\\Events\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1543,12 +1483,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/events"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/macroable",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1563,17 +1502,15 @@
             "require": {
                 "php": "^8.2"
             },
-            "time": "2024-06-28T20:10:30+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Support\\": ""
+                    "Illuminate\\Support\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1592,12 +1529,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/macroable"
+            "time": "2024-06-28T20:10:30+00:00"
         },
         {
             "name": "illuminate/pipeline",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1614,17 +1550,15 @@
                 "illuminate/support": "^11.0",
                 "php": "^8.2"
             },
-            "time": "2025-03-24T11:54:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Pipeline\\": ""
+                    "Illuminate\\Pipeline\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1643,12 +1577,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/pipeline"
+            "time": "2025-03-24T11:54:20+00:00"
         },
         {
             "name": "illuminate/support",
             "version": "v11.45.1",
-            "version_normalized": "11.45.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1690,21 +1623,19 @@
                 "symfony/var-dumper": "Required to use the dd function (^7.0).",
                 "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.6.1)."
             },
-            "time": "2025-05-11T20:47:08+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "11.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "functions.php",
                     "helpers.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Illuminate\\Support\\": ""
+                    "Illuminate\\Support\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1723,12 +1654,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "install-path": "../illuminate/support"
+            "time": "2025-05-11T20:47:08+00:00"
         },
         {
             "name": "laravel/serializable-closure",
             "version": "v2.0.4",
-            "version_normalized": "2.0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
@@ -1750,17 +1680,15 @@
                 "phpstan/phpstan": "^2.0",
                 "symfony/var-dumper": "^6.2.0|^7.0.0"
             },
-            "time": "2025-03-19T13:51:03+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Laravel\\SerializableClosure\\": "src/"
+                    "Laravel\\SerializableClosure\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1787,12 +1715,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "install-path": "../laravel/serializable-closure"
+            "time": "2025-03-19T13:51:03+00:00"
         },
         {
             "name": "league/container",
             "version": "4.2.5",
-            "version_normalized": "4.2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
@@ -1823,7 +1750,6 @@
                 "scrutinizer/ocular": "^1.8",
                 "squizlabs/php_codesniffer": "^3.6"
             },
-            "time": "2025-05-20T12:55:37+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1834,10 +1760,9 @@
                     "dev-master": "4.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\League\\Container\\": "src"
+                    "League\\Container\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1872,12 +1797,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../league/container"
+            "time": "2025-05-20T12:55:37+00:00"
         },
         {
             "name": "masterminds/html5",
             "version": "2.9.0",
-            "version_normalized": "2.9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Masterminds/html5-php.git",
@@ -1896,17 +1820,15 @@
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^8 || ^9"
             },
-            "time": "2024-03-31T07:05:07+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.7-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Masterminds\\": "src"
+                    "Masterminds\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1942,12 +1864,11 @@
                 "issues": "https://github.com/Masterminds/html5-php/issues",
                 "source": "https://github.com/Masterminds/html5-php/tree/2.9.0"
             },
-            "install-path": "../masterminds/html5"
+            "time": "2024-03-31T07:05:07+00:00"
         },
         {
             "name": "nesbot/carbon",
             "version": "3.10.1",
-            "version_normalized": "3.10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
@@ -1982,7 +1903,6 @@
                 "phpunit/phpunit": "^10.5.46",
                 "squizlabs/php_codesniffer": "^3.13.0"
             },
-            "time": "2025-06-21T15:19:35+00:00",
             "bin": [
                 "bin/carbon"
             ],
@@ -2003,10 +1923,9 @@
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Carbon\\": "src/Carbon/"
+                    "Carbon\\": "src/Carbon/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2050,12 +1969,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../nesbot/carbon"
+            "time": "2025-06-21T15:19:35+00:00"
         },
         {
             "name": "onepix/carbon-fields",
             "version": "v1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/0zd0/carbon-fields.git",
@@ -2075,12 +1993,10 @@
                 "phpunit/phpunit": "7.5.20|9.6.3",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "time": "2025-04-29T18:13:10+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Carbon_Fields\\": "core/"
+                    "Carbon_Fields\\": "core/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2193,12 +2109,11 @@
                 "issues": "https://github.com/htmlburger/carbon-fields/issues",
                 "source": "https://github.com/htmlburger/carbon-fields"
             },
-            "install-path": "../onepix/carbon-fields"
+            "time": "2025-04-29T18:13:10+00:00"
         },
         {
             "name": "php-di/invoker",
             "version": "2.3.6",
-            "version_normalized": "2.3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/Invoker.git",
@@ -2219,12 +2134,10 @@
                 "mnapoli/hard-mode": "~0.3.0",
                 "phpunit/phpunit": "^9.0"
             },
-            "time": "2025-01-17T12:49:27+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Invoker\\": "src/"
+                    "Invoker\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2251,12 +2164,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../php-di/invoker"
+            "time": "2025-01-17T12:49:27+00:00"
         },
         {
             "name": "php-di/php-di",
             "version": "7.0.11",
-            "version_normalized": "7.0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/PHP-DI.git",
@@ -2287,15 +2199,13 @@
             "suggest": {
                 "friendsofphp/proxy-manager-lts": "Install it if you want to use lazy injection (version ^1)"
             },
-            "time": "2025-06-03T07:45:57+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\DI\\": "src/"
+                    "DI\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2327,12 +2237,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../php-di/php-di"
+            "time": "2025-06-03T07:45:57+00:00"
         },
         {
             "name": "psr/cache",
             "version": "3.0.0",
-            "version_normalized": "3.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
@@ -2347,17 +2256,15 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "time": "2021-02-03T23:26:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Cache\\": "src/"
+                    "Psr\\Cache\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2379,12 +2286,11 @@
             "support": {
                 "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
-            "install-path": "../psr/cache"
+            "time": "2021-02-03T23:26:27+00:00"
         },
         {
             "name": "psr/clock",
             "version": "1.0.0",
-            "version_normalized": "1.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/clock.git",
@@ -2399,12 +2305,10 @@
             "require": {
                 "php": "^7.0 || ^8.0"
             },
-            "time": "2022-11-25T14:36:26+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Clock\\": "src/"
+                    "Psr\\Clock\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2430,12 +2334,11 @@
                 "issues": "https://github.com/php-fig/clock/issues",
                 "source": "https://github.com/php-fig/clock/tree/1.0.0"
             },
-            "install-path": "../psr/clock"
+            "time": "2022-11-25T14:36:26+00:00"
         },
         {
             "name": "psr/container",
             "version": "2.0.2",
-            "version_normalized": "2.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
@@ -2450,17 +2353,15 @@
             "require": {
                 "php": ">=7.4.0"
             },
-            "time": "2021-11-05T16:47:00+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Container\\": "src/"
+                    "Psr\\Container\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2486,12 +2387,11 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "install-path": "../psr/container"
+            "time": "2021-11-05T16:47:00+00:00"
         },
         {
             "name": "psr/http-client",
             "version": "1.0.3",
-            "version_normalized": "1.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-client.git",
@@ -2507,17 +2407,15 @@
                 "php": "^7.0 || ^8.0",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "time": "2023-09-23T14:17:50+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Http\\Client\\": "src/"
+                    "Psr\\Http\\Client\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2541,12 +2439,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-client"
             },
-            "install-path": "../psr/http-client"
+            "time": "2023-09-23T14:17:50+00:00"
         },
         {
             "name": "psr/http-factory",
             "version": "1.1.0",
-            "version_normalized": "1.1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-factory.git",
@@ -2562,17 +2459,15 @@
                 "php": ">=7.1",
                 "psr/http-message": "^1.0 || ^2.0"
             },
-            "time": "2024-04-15T12:06:14+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Http\\Message\\": "src/"
+                    "Psr\\Http\\Message\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2599,12 +2494,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-factory"
             },
-            "install-path": "../psr/http-factory"
+            "time": "2024-04-15T12:06:14+00:00"
         },
         {
             "name": "psr/http-message",
             "version": "2.0",
-            "version_normalized": "2.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/http-message.git",
@@ -2619,17 +2513,15 @@
             "require": {
                 "php": "^7.2 || ^8.0"
             },
-            "time": "2023-04-04T09:54:51+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Http\\Message\\": "src/"
+                    "Psr\\Http\\Message\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2655,12 +2547,11 @@
             "support": {
                 "source": "https://github.com/php-fig/http-message/tree/2.0"
             },
-            "install-path": "../psr/http-message"
+            "time": "2023-04-04T09:54:51+00:00"
         },
         {
             "name": "psr/log",
             "version": "3.0.2",
-            "version_normalized": "3.0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -2675,17 +2566,15 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "time": "2024-09-11T13:17:53+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\Log\\": "src"
+                    "Psr\\Log\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2708,12 +2597,11 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "install-path": "../psr/log"
+            "time": "2024-09-11T13:17:53+00:00"
         },
         {
             "name": "psr/simple-cache",
             "version": "3.0.0",
-            "version_normalized": "3.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/simple-cache.git",
@@ -2728,17 +2616,15 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "time": "2021-10-29T13:26:27+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Psr\\SimpleCache\\": "src/"
+                    "Psr\\SimpleCache\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2762,12 +2648,11 @@
             "support": {
                 "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
-            "install-path": "../psr/simple-cache"
+            "time": "2021-10-29T13:26:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
-            "version_normalized": "3.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ralouphie/getallheaders.git",
@@ -2786,9 +2671,7 @@
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpunit/phpunit": "^5 || ^6.5"
             },
-            "time": "2019-03-08T08:55:37+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/getallheaders.php"
@@ -2809,12 +2692,11 @@
                 "issues": "https://github.com/ralouphie/getallheaders/issues",
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
-            "install-path": "../ralouphie/getallheaders"
+            "time": "2019-03-08T08:55:37+00:00"
         },
         {
             "name": "ramsey/collection",
             "version": "2.1.1",
-            "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
@@ -2848,7 +2730,6 @@
                 "ramsey/conventional-commits": "^1.6",
                 "roave/security-advisories": "dev-latest"
             },
-            "time": "2025-03-22T05:38:12+00:00",
             "type": "library",
             "extra": {
                 "captainhook": {
@@ -2858,10 +2739,9 @@
                     "configFile": "conventional-commits.json"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Ramsey\\Collection\\": "src/"
+                    "Ramsey\\Collection\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2888,12 +2768,11 @@
                 "issues": "https://github.com/ramsey/collection/issues",
                 "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
-            "install-path": "../ramsey/collection"
+            "time": "2025-03-22T05:38:12+00:00"
         },
         {
             "name": "ramsey/uuid",
             "version": "4.8.1",
-            "version_normalized": "4.8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
@@ -2940,20 +2819,18 @@
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
                 "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
             },
-            "time": "2025-06-01T06:28:46+00:00",
             "type": "library",
             "extra": {
                 "captainhook": {
                     "force-install": true
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "src/functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Ramsey\\Uuid\\": "src/"
+                    "Ramsey\\Uuid\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2970,12 +2847,11 @@
                 "issues": "https://github.com/ramsey/uuid/issues",
                 "source": "https://github.com/ramsey/uuid/tree/4.8.1"
             },
-            "install-path": "../ramsey/uuid"
+            "time": "2025-06-01T06:28:46+00:00"
         },
         {
             "name": "robmorgan/phinx",
             "version": "0.16.9",
-            "version_normalized": "0.16.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/phinx.git",
@@ -3008,12 +2884,10 @@
                 "ext-pdo": "PDO extension is needed",
                 "symfony/yaml": "Install if using YAML configuration format"
             },
-            "time": "2025-05-25T16:07:44+00:00",
             "bin": [
                 "bin/phinx"
             ],
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Phinx\\": "src/Phinx/"
@@ -3060,12 +2934,11 @@
                 "issues": "https://github.com/cakephp/phinx/issues",
                 "source": "https://github.com/cakephp/phinx/tree/0.16.9"
             },
-            "install-path": "../robmorgan/phinx"
+            "time": "2025-05-25T16:07:44+00:00"
         },
         {
             "name": "sabberworm/php-css-parser",
             "version": "v8.8.0",
-            "version_normalized": "8.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
@@ -3087,17 +2960,15 @@
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
             },
-            "time": "2025-03-23T17:59:05+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-main": "9.0.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Sabberworm\\CSS\\": "src/"
+                    "Sabberworm\\CSS\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3128,12 +2999,11 @@
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
                 "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
             },
-            "install-path": "../sabberworm/php-css-parser"
+            "time": "2025-03-23T17:59:05+00:00"
         },
         {
             "name": "symfony/cache",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
@@ -3178,12 +3048,10 @@
                 "symfony/messenger": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0"
             },
-            "time": "2025-05-06T19:00:13+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Cache\\": ""
+                    "Symfony\\Component\\Cache\\": ""
                 },
                 "classmap": [
                     "Traits/ValueWrapper.php"
@@ -3229,12 +3097,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache"
+            "time": "2025-05-06T19:00:13+00:00"
         },
         {
             "name": "symfony/cache-contracts",
             "version": "v3.6.0",
-            "version_normalized": "3.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
@@ -3250,7 +3117,6 @@
                 "php": ">=8.1",
                 "psr/cache": "^3.0"
             },
-            "time": "2025-03-13T15:25:07+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3261,10 +3127,9 @@
                     "dev-main": "3.6-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Contracts\\Cache\\": ""
+                    "Symfony\\Contracts\\Cache\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3308,12 +3173,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/cache-contracts"
+            "time": "2025-03-13T15:25:07+00:00"
         },
         {
             "name": "symfony/clock",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/clock.git",
@@ -3333,15 +3197,13 @@
             "provide": {
                 "psr/clock-implementation": "1.0"
             },
-            "time": "2024-09-25T14:21:43+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "Resources/now.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Clock\\": ""
+                    "Symfony\\Component\\Clock\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -3385,12 +3247,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/clock"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/config",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
@@ -3419,12 +3280,10 @@
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/yaml": "^6.4|^7.0"
             },
-            "time": "2025-05-15T09:04:05+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Config\\": ""
+                    "Symfony\\Component\\Config\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -3463,12 +3322,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/config"
+            "time": "2025-05-15T09:04:05+00:00"
         },
         {
             "name": "symfony/console",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -3510,12 +3368,10 @@
                 "symfony/stopwatch": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0"
             },
-            "time": "2025-05-24T10:34:04+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Console\\": ""
+                    "Symfony\\Component\\Console\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -3560,12 +3416,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/console"
+            "time": "2025-05-24T10:34:04+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
             "version": "v3.6.0",
-            "version_normalized": "3.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
@@ -3580,7 +3435,6 @@
             "require": {
                 "php": ">=8.1"
             },
-            "time": "2024-09-25T14:21:43+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3591,7 +3445,6 @@
                     "dev-main": "3.6-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "function.php"
@@ -3630,12 +3483,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/deprecation-contracts"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/filesystem",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -3655,12 +3507,10 @@
             "require-dev": {
                 "symfony/process": "^6.4|^7.0"
             },
-            "time": "2024-10-25T15:15:23+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Filesystem\\": ""
+                    "Symfony\\Component\\Filesystem\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -3699,12 +3549,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/filesystem"
+            "time": "2024-10-25T15:15:23+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.32.0",
-            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3725,7 +3574,6 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3733,13 +3581,12 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Polyfill\\Ctype\\": ""
+                    "Symfony\\Polyfill\\Ctype\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3781,12 +3628,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-ctype"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
             "version": "v1.32.0",
-            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
@@ -3804,7 +3650,6 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3812,13 +3657,12 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3862,12 +3706,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-grapheme"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
             "version": "v1.32.0",
-            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -3885,7 +3728,6 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2024-09-09T11:45:10+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3893,13 +3735,12 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -3946,12 +3787,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-normalizer"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.32.0",
-            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -3973,7 +3813,6 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "time": "2024-12-23T08:48:59+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3981,13 +3820,12 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Polyfill\\Mbstring\\": ""
+                    "Symfony\\Polyfill\\Mbstring\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4030,12 +3868,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-mbstring"
+            "time": "2024-12-23T08:48:59+00:00"
         },
         {
             "name": "symfony/polyfill-php83",
             "version": "v1.32.0",
-            "version_normalized": "1.32.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php83.git",
@@ -4050,7 +3887,6 @@
             "require": {
                 "php": ">=7.2"
             },
-            "time": "2024-09-09T11:45:10+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -4058,13 +3894,12 @@
                     "name": "symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Polyfill\\Php83\\": ""
+                    "Symfony\\Polyfill\\Php83\\": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -4109,12 +3944,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-php83"
+            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/service-contracts",
             "version": "v3.6.0",
-            "version_normalized": "3.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
@@ -4134,7 +3968,6 @@
             "conflict": {
                 "ext-psr": "<1.1|>=2"
             },
-            "time": "2025-04-25T09:37:31+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -4145,10 +3978,9 @@
                     "dev-main": "3.6-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Contracts\\Service\\": ""
+                    "Symfony\\Contracts\\Service\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Test/"
@@ -4195,12 +4027,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/service-contracts"
+            "time": "2025-04-25T09:37:31+00:00"
         },
         {
             "name": "symfony/string",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
@@ -4230,15 +4061,13 @@
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^6.4|^7.0"
             },
-            "time": "2025-04-20T20:19:01+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "Resources/functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\String\\": ""
+                    "Symfony\\Component\\String\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4285,12 +4114,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/string"
+            "time": "2025-04-20T20:19:01+00:00"
         },
         {
             "name": "symfony/translation",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -4337,15 +4165,13 @@
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/yaml": "^6.4|^7.0"
             },
-            "time": "2025-05-29T07:19:49+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "Resources/functions.php"
                 ],
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\Translation\\": ""
+                    "Symfony\\Component\\Translation\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4384,12 +4210,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/translation"
+            "time": "2025-05-29T07:19:49+00:00"
         },
         {
             "name": "symfony/translation-contracts",
             "version": "v3.6.0",
-            "version_normalized": "3.6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
@@ -4404,7 +4229,6 @@
             "require": {
                 "php": ">=8.1"
             },
-            "time": "2024-09-27T08:32:26+00:00",
             "type": "library",
             "extra": {
                 "thanks": {
@@ -4415,10 +4239,9 @@
                     "dev-main": "3.6-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Contracts\\Translation\\": ""
+                    "Symfony\\Contracts\\Translation\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Test/"
@@ -4465,12 +4288,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/translation-contracts"
+            "time": "2024-09-27T08:32:26+00:00"
         },
         {
             "name": "symfony/var-exporter",
             "version": "v7.3.0",
-            "version_normalized": "7.3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
@@ -4491,12 +4313,10 @@
                 "symfony/serializer": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0"
             },
-            "time": "2025-05-15T09:04:05+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-                    "Onepix\\FoodSpotVendor\\Symfony\\Component\\VarExporter\\": ""
+                    "Symfony\\Component\\VarExporter\\": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4545,12 +4365,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/var-exporter"
+            "time": "2025-05-15T09:04:05+00:00"
         },
         {
             "name": "voku/portable-ascii",
             "version": "2.0.3",
-            "version_normalized": "2.0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
@@ -4571,9 +4390,7 @@
             "suggest": {
                 "ext-intl": "Use Intl for transliterator_transliterate() support"
             },
-            "time": "2024-11-21T01:49:47+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "voku\\": "src/voku/"
@@ -4622,9 +4439,19 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../voku/portable-ascii"
+            "time": "2024-11-21T01:49:47+00:00"
         }
     ],
-    "dev": false,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.2.0",
+        "ext-json": "*"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }

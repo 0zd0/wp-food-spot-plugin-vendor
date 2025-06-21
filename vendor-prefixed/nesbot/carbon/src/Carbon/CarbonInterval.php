@@ -420,7 +420,7 @@ class CarbonInterval extends DateInterval implements CarbonConverterInterface
                 $intervalMicroseconds = (int) ($this->f * CarbonInterface::MICROSECONDS_PER_SECOND);
                 $intervalSeconds = $seconds - $secondFloatPart;
                 if ((float) $this->y !== $years || (float) $this->m !== $months || (float) $this->d !== $totalDays || (float) $this->h !== $hours || (float) $this->i !== $minutes || (float) $this->s !== $intervalSeconds || $intervalMicroseconds !== (int) $microseconds) {
-                    $this->add(static::fromString($years - $this->y . ' years ' . ($months - $this->m) . ' months ' . ($totalDays - $this->d) . ' days ' . ($hours - $this->h) . ' hours ' . ($minutes - $this->i) . ' minutes ' . ($intervalSeconds - $this->s) . ' seconds ' . ($microseconds - $intervalMicroseconds) . ' microseconds '));
+                    $this->add(static::fromString($years - $this->y . ' years ' . ($months - $this->m) . ' months ' . ($totalDays - $this->d) . ' days ' . ($hours - $this->h) . ' hours ' . ($minutes - $this->i) . ' minutes ' . number_format($intervalSeconds - $this->s, 6, '.', '') . ' seconds ' . ($microseconds - $intervalMicroseconds) . ' microseconds '));
                 }
             } catch (Throwable $secondException) {
                 throw $secondException instanceof OutOfRangeException ? $secondException : $exception;
