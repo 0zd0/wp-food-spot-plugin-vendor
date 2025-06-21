@@ -1,0 +1,6 @@
+name: carbon-fields
+
+services:
+  php:
+    build:
+      context: .

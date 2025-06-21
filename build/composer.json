@@ -28,6 +28,24 @@
       ],
       "update_call_sites": false,
       "override_autoload": {
+        "dompdf/dompdf": {
+          "classmap": ["."]
+        },
+        "dompdf/php-font-lib": {
+          "classmap": ["."]
+        },
+        "nesbot/carbon": {
+          "classmap": ["."]
+        },
+        "robmorgan/phinx": {
+          "classmap": ["."]
+        },
+        "voku/portable-ascii": {
+          "classmap": ["."]
+        },
+        "onepix/carbon-fields": {
+          "classmap": ["."]
+        }
       },
       "exclude_from_copy": {
         "packages": [
