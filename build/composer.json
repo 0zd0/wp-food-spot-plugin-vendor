@@ -6,6 +6,13 @@
       "name": "onepix"
     }
   ],
+  "autoload": {
+    "classmap": [
+      "../vendor-prefixed/robmorgan/phinx",
+      "../vendor-prefixed/voku/portable-ascii",
+      "../vendor-prefixed/illuminate/contracts"
+    ]
+  },
   "require": {
     "php": ">=8.2.0",
     "ext-json": "*",
