@@ -3044,7 +3044,7 @@ class Builder implements BuilderContract
      * @param  string  $column
      * @return mixed
      */
-    public function onepix_foodspotvendor_value($column)
+    public function value($column)
     {
         $result = (array) $this->first([$column]);
 

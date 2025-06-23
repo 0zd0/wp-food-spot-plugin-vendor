@@ -519,7 +519,7 @@ abstract class ServiceProvider
      *
      * @return array
      */
-    public function onepix_foodspotvendor_when()
+    public function when()
     {
         return [];
     }

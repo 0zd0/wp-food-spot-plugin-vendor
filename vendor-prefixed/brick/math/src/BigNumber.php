@@ -486,7 +486,7 @@ abstract class BigNumber implements \JsonSerializable
      *
      * @throws MathException If this number cannot be exactly converted to a native integer.
      */
-    abstract public function onepix_foodspotvendor_toInt() : int;
+    abstract public function toInt() : int;
 
     /**
      * Returns an approximation of this number as a floating-point value.
@@ -497,7 +497,7 @@ abstract class BigNumber implements \JsonSerializable
      * If the number is greater than the largest representable floating point number, positive infinity is returned.
      * If the number is less than the smallest representable floating point number, negative infinity is returned.
      */
-    abstract public function onepix_foodspotvendor_toFloat() : float;
+    abstract public function toFloat() : float;
 
     /**
      * Returns a string representation of this number.

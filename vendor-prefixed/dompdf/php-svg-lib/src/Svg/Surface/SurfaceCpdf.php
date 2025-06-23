@@ -102,7 +102,7 @@ class SurfaceCpdf implements SurfaceInterface
         );
     }
 
-    public function onepix_foodspotvendor_transform($a, $b, $c, $d, $e, $f)
+    public function transform($a, $b, $c, $d, $e, $f)
     {
         if (self::DEBUG) echo __FUNCTION__ . "\n";
 

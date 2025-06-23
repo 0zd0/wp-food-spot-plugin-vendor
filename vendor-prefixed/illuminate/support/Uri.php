@@ -339,7 +339,7 @@ class Uri implements Htmlable, Responsable, Stringable
     /**
      * Get the string representation of the URI.
      */
-    public function onepix_foodspotvendor_value(): string
+    public function value(): string
     {
         return (string) $this;
     }

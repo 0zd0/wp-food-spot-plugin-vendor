@@ -291,7 +291,7 @@ class CaseStatementExpression implements ExpressionInterface, TypedResultInterfa
      * @throws \LogicException In case the callable doesn't return an instance of
      *  `\Cake\Database\Expression\WhenThenExpression`.
      */
-    public function onepix_foodspotvendor_when(mixed $when, array|string|null $type = null)
+    public function when(mixed $when, array|string|null $type = null)
     {
         if ($this->whenBuffer !== null) {
             throw new LogicException('Cannot call `when()` between `when()` and `then()`.');

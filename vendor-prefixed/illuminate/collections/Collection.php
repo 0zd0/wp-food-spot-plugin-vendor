@@ -769,7 +769,7 @@ class Collection implements ArrayAccess, CanBeEscapedWhenCastToString, Enumerabl
      * @param  TLastDefault|(\Closure(): TLastDefault)  $default
      * @return TValue|TLastDefault
      */
-    public function onepix_foodspotvendor_last(?callable $callback = null, $default = null)
+    public function last(?callable $callback = null, $default = null)
     {
         return Arr::last($this->items, $callback, $default);
     }
@@ -1563,7 +1563,7 @@ class Collection implements ArrayAccess, CanBeEscapedWhenCastToString, Enumerabl
                 if (! is_string($prop) && is_callable($prop)) {
                     $result = $prop($a, $b);
                 } else {
-                    $values = [data_get($a, $prop), onepix_foodspotvendor_data_get($b, $prop)];
+                    $values = [onepix_foodspotvendor_data_get($a, $prop), onepix_foodspotvendor_data_get($b, $prop)];
 
                     if (! $ascending) {
                         $values = array_reverse($values);
@@ -1721,7 +1721,7 @@ class Collection implements ArrayAccess, CanBeEscapedWhenCastToString, Enumerabl
      * @param  callable(TValue, TKey): TValue  $callback
      * @return $this
      */
-    public function onepix_foodspotvendor_transform(callable $callback)
+    public function transform(callable $callback)
     {
         $this->items = $this->map($callback)->all();
 

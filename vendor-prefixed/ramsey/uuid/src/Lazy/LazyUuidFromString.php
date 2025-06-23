@@ -233,7 +233,7 @@ final class LazyUuidFromString implements UuidInterface
         return ($this->unwrapped ?? $this->unwrap())->getInteger();
     }
 
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->uuid;
     }

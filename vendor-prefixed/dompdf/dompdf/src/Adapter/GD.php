@@ -448,7 +448,7 @@ class GD implements Canvas
     {
         // @todo
     }
-    public function onepix_foodspotvendor_transform($a, $b, $c, $d, $e, $f)
+    public function transform($a, $b, $c, $d, $e, $f)
     {
         // @todo
     }

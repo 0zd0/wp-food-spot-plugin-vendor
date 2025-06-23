@@ -4317,7 +4317,7 @@ interface CarbonInterface extends DateTimeInterface, JsonSerializable
      * echo Carbon::now()->toString();
      * ```
      */
-    public function onepix_foodspotvendor_toString(): string;
+    public function toString(): string;
     /**
      * Format the instance as time
      *

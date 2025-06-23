@@ -63,7 +63,7 @@ class Value_Set {
 	);
 
 	/**
-	 * Registered value set properties (properties) with their default onepix_foodspotvendor_value (when the property is missing in the passed raw_value_set)
+	 * Registered value set properties (properties) with their default value (when the property is missing in the passed raw_value_set)
 	 *
 	 * @var array
 	 */

@@ -156,7 +156,7 @@ interface Container extends ContainerInterface
      * @param  string|array  $concrete
      * @return \Onepix\FoodSpotVendor\Illuminate\Contracts\Container\ContextualBindingBuilder
      */
-    public function onepix_foodspotvendor_when($concrete);
+    public function when($concrete);
 
     /**
      * Get a closure to resolve the given type from the container.

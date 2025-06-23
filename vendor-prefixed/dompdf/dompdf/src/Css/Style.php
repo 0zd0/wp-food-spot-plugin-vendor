@@ -1636,7 +1636,7 @@ class Style
             } else {
                 $method = "_set_$prop";
 
-                // Resolve the CSS custom property onepix_foodspotvendor_value(s).
+                // Resolve the CSS custom property value(s).
                 $pattern = self::CSS_VAR;
 
                 // Always set the specified value for properties that use CSS variables
@@ -1929,7 +1929,7 @@ class Style
             return $val;
         }
 
-        // Resolve the CSS custom property onepix_foodspotvendor_value(s).
+        // Resolve the CSS custom property value(s).
         $pattern = self::CSS_VAR;
         $val = preg_replace_callback(
             "/$pattern/",

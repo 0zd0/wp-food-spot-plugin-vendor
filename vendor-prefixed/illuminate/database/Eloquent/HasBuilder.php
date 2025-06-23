@@ -117,7 +117,7 @@ trait HasBuilder
      * @param  array|string  $relations
      * @return TBuilder
      */
-    public static function onepix_foodspotvendor_with($relations)
+    public static function with($relations)
     {
         return parent::with($relations);
     }

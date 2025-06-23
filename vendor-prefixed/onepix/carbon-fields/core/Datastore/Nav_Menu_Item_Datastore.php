@@ -36,9 +36,9 @@ class Nav_Menu_Item_Datastore extends Post_Meta_Datastore {
 	}
 
 	/**
-	 * Load the field onepix_foodspotvendor_value(s)
+	 * Load the field value(s)
 	 *
-	 * @param Field $field The field to load onepix_foodspotvendor_value(s) in.
+	 * @param Field $field The field to load value(s) in.
 	 */
 	public function load( Field $field ) {
 		if ( ! $this->get_object_id() ) {
@@ -52,7 +52,7 @@ class Nav_Menu_Item_Datastore extends Post_Meta_Datastore {
 	}
 
 	/**
-	 * Save the field onepix_foodspotvendor_value(s)
+	 * Save the field value(s)
 	 *
 	 * @param Field $field The field to save.
 	 */
@@ -66,7 +66,7 @@ class Nav_Menu_Item_Datastore extends Post_Meta_Datastore {
 	}
 
 	/**
-	 * Delete the field onepix_foodspotvendor_value(s)
+	 * Delete the field value(s)
 	 *
 	 * @param Field $field The field to delete.
 	 */

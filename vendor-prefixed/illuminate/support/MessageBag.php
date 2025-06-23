@@ -282,7 +282,7 @@ class MessageBag implements Jsonable, JsonSerializable, MessageBagContract, Mess
      * @param  string  $messageKey
      * @return array
      */
-    protected function onepix_foodspotvendor_transform($messages, $format, $messageKey)
+    protected function transform($messages, $format, $messageKey)
     {
         if ($format == ':message') {
             return (array) $messages;

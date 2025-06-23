@@ -344,7 +344,7 @@ if (! function_exists('onepix_foodspotvendor_retry')) {
             $sleepMilliseconds = $backoff[$attempts - 1] ?? $sleepMilliseconds;
 
             if ($sleepMilliseconds) {
-                Sleep::usleep(value($sleepMilliseconds, $attempts, $e) * 1000);
+                Sleep::usleep(onepix_foodspotvendor_value($sleepMilliseconds, $attempts, $e) * 1000);
             }
 
             goto beginning;
@@ -486,7 +486,7 @@ if (! function_exists('onepix_foodspotvendor_transform')) {
      */
     function onepix_foodspotvendor_transform($value, callable $callback, $default = null)
     {
-        if (filled($value)) {
+        if (onepix_foodspotvendor_filled($value)) {
             return $callback($value);
         }
 

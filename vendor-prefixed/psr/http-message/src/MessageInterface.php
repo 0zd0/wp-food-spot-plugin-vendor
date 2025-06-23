@@ -125,7 +125,7 @@ interface MessageInterface
      * new and/or updated header and value.
      *
      * @param string $name Case-insensitive header field name.
-     * @param string|string[] $value Header onepix_foodspotvendor_value(s).
+     * @param string|string[] $value Header value(s).
      * @return static
      * @throws \InvalidArgumentException for invalid header names or values.
      */
@@ -135,7 +135,7 @@ interface MessageInterface
      * Return an instance with the specified header appended with the given value.
      *
      * Existing values for the specified header will be maintained. The new
-     * onepix_foodspotvendor_value(s) will be appended to the existing list. If the header did not
+     * value(s) will be appended to the existing list. If the header did not
      * exist previously, it will be added.
      *
      * This method MUST be implemented in such a way as to retain the
@@ -143,7 +143,7 @@ interface MessageInterface
      * new header and/or value.
      *
      * @param string $name Case-insensitive header field name to add.
-     * @param string|string[] $value Header onepix_foodspotvendor_value(s).
+     * @param string|string[] $value Header value(s).
      * @return static
      * @throws \InvalidArgumentException for invalid header names or values.
      */

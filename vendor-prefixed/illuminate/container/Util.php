@@ -32,7 +32,7 @@ class Util
     /**
      * Return the default value of the given value.
      *
-     * From global onepix_foodspotvendor_value() helper in Illuminate\Support.
+     * From global value() helper in Illuminate\Support.
      *
      * @param  mixed  $value
      * @param  mixed  ...$args

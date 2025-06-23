@@ -283,7 +283,7 @@ final class Carbon_Fields
      * @param  string   $callable The callable to call when the event is broadcasted
      * @return Event\Listener
      */
-    public static function onepix_foodspotvendor_once($event, $callable)
+    public static function once($event, $callable)
     {
         return static::instance()->get_emitter()->once($event, $callable);
     }

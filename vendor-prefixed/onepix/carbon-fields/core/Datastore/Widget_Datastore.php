@@ -71,7 +71,7 @@ class Widget_Datastore extends Key_Value_Datastore {
 	}
 
 	/**
-	 * Delete the field onepix_foodspotvendor_value(s)
+	 * Delete the field value(s)
 	 *
 	 * @param Field $field The field to delete.
 	 */

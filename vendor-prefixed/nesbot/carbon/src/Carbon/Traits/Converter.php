@@ -422,7 +422,7 @@ trait Converter
      * echo Carbon::now()->toString();
      * ```
      */
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->avoidMutation()->locale('en')->isoFormat('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
     }

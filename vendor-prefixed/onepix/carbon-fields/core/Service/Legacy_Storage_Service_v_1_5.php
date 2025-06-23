@@ -208,7 +208,7 @@ class Legacy_Storage_Service_v_1_5 extends Service {
 		$table = $this->get_table_details_for_datastore( $datastore );
 
 		if ( $table['table_id_column'] && ! $datastore->get_object_id() ) {
-			return array(); // bail as we have an ID column but no ID to compare onepix_foodspotvendor_with ( e.g. we are in a "create" view )
+			return array(); // bail as we have an ID column but no ID to compare with ( e.g. we are in a "create" view )
 		}
 
 		$comparisons = array();

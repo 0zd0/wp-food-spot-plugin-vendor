@@ -96,7 +96,7 @@ namespace Onepix\FoodSpotVendor\Illuminate\Support\Facades;
  * @method static void registerCoreContainerAliases()
  * @method static void flush()
  * @method static string getNamespace()
- * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Container\ContextualBindingBuilder onepix_foodspotvendor_when(array|string $concrete)
+ * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Container\ContextualBindingBuilder when(array|string $concrete)
  * @method static void whenHasAttribute(string $attribute, \Closure $handler)
  * @method static bool has(string $id)
  * @method static bool isShared(string $abstract)

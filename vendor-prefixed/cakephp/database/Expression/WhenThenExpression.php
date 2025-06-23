@@ -118,7 +118,7 @@ class WhenThenExpression implements ExpressionInterface
      * neither a string, nor null.
      * @see CaseStatementExpression::when() for a more detailed usage explanation.
      */
-    public function onepix_foodspotvendor_when(object|array|string|float|int|bool $when, array|string|null $type = null)
+    public function when(object|array|string|float|int|bool $when, array|string|null $type = null)
     {
         if (is_array($when)) {
             if (!$when) {

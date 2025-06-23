@@ -737,7 +737,7 @@ class CarbonInterval extends DateInterval implements CarbonConverterInterface
      * Special cases:
      *  - An empty string will return a zero interval
      *  - Fractions are allowed for weeks, days, hours and minutes and will be converted
-     *    and rounded to the next smaller onepix_foodspotvendor_value (caution: 0.5w = 4d)
+     *    and rounded to the next smaller value (caution: 0.5w = 4d)
      *
      * @param string $intervalDefinition
      *

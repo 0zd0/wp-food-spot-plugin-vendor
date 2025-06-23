@@ -140,7 +140,7 @@ class Stringable implements JsonSerializable, ArrayAccess, BaseStringable
      */
     public function classBasename()
     {
-        return new static(class_basename($this->value));
+        return new static(onepix_foodspotvendor_class_basename($this->value));
     }
 
     /**
@@ -1354,7 +1354,7 @@ class Stringable implements JsonSerializable, ArrayAccess, BaseStringable
      *
      * @return string
      */
-    public function onepix_foodspotvendor_value()
+    public function value()
     {
         return $this->toString();
     }
@@ -1364,7 +1364,7 @@ class Stringable implements JsonSerializable, ArrayAccess, BaseStringable
      *
      * @return string
      */
-    public function onepix_foodspotvendor_toString()
+    public function toString()
     {
         return $this->value;
     }
@@ -1385,7 +1385,7 @@ class Stringable implements JsonSerializable, ArrayAccess, BaseStringable
      *
      * @return float
      */
-    public function onepix_foodspotvendor_toFloat()
+    public function toFloat()
     {
         return floatval($this->value);
     }

@@ -415,7 +415,7 @@ class Builder
      */
     public function create($table, Closure $callback)
     {
-        $this->build(tap($this->createBlueprint($table), function ($blueprint) use ($callback) {
+        $this->build(onepix_foodspotvendor_tap($this->createBlueprint($table), function ($blueprint) use ($callback) {
             $blueprint->create();
 
             $callback($blueprint);
@@ -430,7 +430,7 @@ class Builder
      */
     public function drop($table)
     {
-        $this->build(tap($this->createBlueprint($table), function ($blueprint) {
+        $this->build(onepix_foodspotvendor_tap($this->createBlueprint($table), function ($blueprint) {
             $blueprint->drop();
         }));
     }
@@ -443,7 +443,7 @@ class Builder
      */
     public function dropIfExists($table)
     {
-        $this->build(tap($this->createBlueprint($table), function ($blueprint) {
+        $this->build(onepix_foodspotvendor_tap($this->createBlueprint($table), function ($blueprint) {
             $blueprint->dropIfExists();
         }));
     }
@@ -507,7 +507,7 @@ class Builder
      */
     public function rename($from, $to)
     {
-        $this->build(tap($this->createBlueprint($from), function ($blueprint) use ($to) {
+        $this->build(onepix_foodspotvendor_tap($this->createBlueprint($from), function ($blueprint) use ($to) {
             $blueprint->rename($to);
         }));
     }

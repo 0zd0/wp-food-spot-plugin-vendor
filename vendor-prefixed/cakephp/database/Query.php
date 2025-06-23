@@ -391,7 +391,7 @@ abstract class Query implements ExpressionInterface, Stringable
      * @param bool $overwrite Whether to reset the list of CTEs.
      * @return $this
      */
-    public function onepix_foodspotvendor_with(CommonTableExpression|Closure $cte, bool $overwrite = false)
+    public function with(CommonTableExpression|Closure $cte, bool $overwrite = false)
     {
         if ($overwrite) {
             $this->_parts['with'] = [];

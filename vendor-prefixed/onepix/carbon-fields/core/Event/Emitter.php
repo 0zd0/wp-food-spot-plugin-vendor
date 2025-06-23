@@ -117,7 +117,7 @@ class Emitter {
 	 * @param  string   $callable The callable to call when the event is broadcasted
 	 * @return Listener
 	 */
-	public function onepix_foodspotvendor_once( $event, $callable ) {
+	public function once( $event, $callable ) {
 		$listener = \Onepix\FoodSpotVendor\Carbon_Fields\Carbon_Fields::resolve( 'event_single_event_listener' );
 		$listener->set_callable( $callable );
 		return $this->add_listener( $event, $listener );

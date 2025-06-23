@@ -98,7 +98,7 @@ class SqlServerGrammar extends Grammar
         }
 
         if (! is_null($query->lock)) {
-            return $from.' onepix_foodspotvendor_with(rowlock,'.($query->lock ? 'updlock,' : '').'holdlock)';
+            return $from.' with(rowlock,'.($query->lock ? 'updlock,' : '').'holdlock)';
         }
 
         return $from;

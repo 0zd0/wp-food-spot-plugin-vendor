@@ -179,7 +179,7 @@ class Container implements ArrayAccess, ContainerContract
      * @param  array|string  $concrete
      * @return \Onepix\FoodSpotVendor\Illuminate\Contracts\Container\ContextualBindingBuilder
      */
-    public function onepix_foodspotvendor_when($concrete)
+    public function when($concrete)
     {
         $aliases = [];
 

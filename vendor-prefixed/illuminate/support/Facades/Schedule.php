@@ -27,7 +27,7 @@ use Illuminate\Console\Scheduling\Schedule as ConsoleSchedule;
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes evenInMaintenanceMode()
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes onOneServer()
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes runInBackground()
- * @method static \Illuminate\Console\Scheduling\PendingEventAttributes onepix_foodspotvendor_when(\Closure|bool $callback)
+ * @method static \Illuminate\Console\Scheduling\PendingEventAttributes when(\Closure|bool $callback)
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes skip(\Closure|bool $callback)
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes name(string $description)
  * @method static \Illuminate\Console\Scheduling\PendingEventAttributes description(string $description)

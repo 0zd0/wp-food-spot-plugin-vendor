@@ -53,7 +53,7 @@ final class Time implements TypeInterface
         return $this->microseconds;
     }
 
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->seconds->toString() . '.' . sprintf('%06s', $this->microseconds->toString());
     }

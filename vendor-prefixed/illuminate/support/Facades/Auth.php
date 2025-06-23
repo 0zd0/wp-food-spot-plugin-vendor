@@ -30,7 +30,7 @@ use RuntimeException;
  * @method static bool hasUser()
  * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Auth\Guard setUser(\Onepix\FoodSpotVendor\Illuminate\Contracts\Auth\Authenticatable $user)
  * @method static bool attempt(array $credentials = [], bool $remember = false)
- * @method static bool onepix_foodspotvendor_once(array $credentials = [])
+ * @method static bool once(array $credentials = [])
  * @method static void login(\Onepix\FoodSpotVendor\Illuminate\Contracts\Auth\Authenticatable $user, bool $remember = false)
  * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Auth\Authenticatable|false loginUsingId(mixed $id, bool $remember = false)
  * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Auth\Authenticatable|false onceUsingId(mixed $id)

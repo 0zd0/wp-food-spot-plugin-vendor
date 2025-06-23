@@ -56,7 +56,7 @@ class Sequence implements Countable
      */
     public function __invoke()
     {
-        return onepix_foodspotvendor_tap(value($this->sequence[$this->index % $this->count], $this), function () {
+        return onepix_foodspotvendor_tap(onepix_foodspotvendor_value($this->sequence[$this->index % $this->count], $this), function () {
             $this->index = $this->index + 1;
         });
     }

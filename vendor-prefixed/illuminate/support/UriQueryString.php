@@ -73,7 +73,7 @@ class UriQueryString implements Arrayable, Stringable
     /**
      * Get the string representation of the query string.
      */
-    public function onepix_foodspotvendor_value(): string
+    public function value(): string
     {
         return (string) $this;
     }

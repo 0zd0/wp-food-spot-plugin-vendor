@@ -737,7 +737,7 @@ class Builder implements BuilderContract
      * @param  string|\Onepix\FoodSpotVendor\Illuminate\Contracts\Database\Query\Expression  $column
      * @return mixed
      */
-    public function onepix_foodspotvendor_value($column)
+    public function value($column)
     {
         if ($result = $this->first([$column])) {
             $column = $column instanceof Expression ? $column->getValue($this->getGrammar()) : $column;
@@ -1601,7 +1601,7 @@ class Builder implements BuilderContract
      * @param  (\Closure(\Onepix\FoodSpotVendor\Illuminate\Database\Eloquent\Relations\Relation<*,*,*>): mixed)|string|null  $callback
      * @return $this
      */
-    public function onepix_foodspotvendor_with($relations, $callback = null)
+    public function with($relations, $callback = null)
     {
         if ($callback instanceof Closure) {
             $eagerLoad = $this->parseWithRelations([$relations => $callback]);

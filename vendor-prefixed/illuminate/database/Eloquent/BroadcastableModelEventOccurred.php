@@ -138,7 +138,7 @@ class BroadcastableModelEventOccurred implements ShouldBroadcast
      *
      * @return string
      */
-    public function onepix_foodspotvendor_event()
+    public function event()
     {
         return $this->event;
     }

@@ -1005,7 +1005,7 @@ class PDFLib implements Canvas
         $this->_pdf->translate($t_x, -$t_y);
     }
 
-    public function onepix_foodspotvendor_transform($a, $b, $c, $d, $e, $f)
+    public function transform($a, $b, $c, $d, $e, $f)
     {
         $this->_pdf->concat($a, $b, $c, $d, $e, $f);
     }

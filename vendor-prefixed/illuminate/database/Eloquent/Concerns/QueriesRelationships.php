@@ -729,7 +729,7 @@ trait QueriesRelationships
         }
 
         if ($relationshipName === null) {
-            $relationshipName = Str::camel(class_basename($related));
+            $relationshipName = Str::camel(onepix_foodspotvendor_class_basename($related));
         }
 
         try {

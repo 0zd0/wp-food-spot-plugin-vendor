@@ -888,7 +888,7 @@ class Connection implements ConnectionInterface
      * @param  mixed  $event
      * @return void
      */
-    protected function onepix_foodspotvendor_event($event)
+    protected function event($event)
     {
         $this->events?->dispatch($event);
     }

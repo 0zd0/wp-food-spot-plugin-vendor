@@ -20,7 +20,7 @@ interface View extends Renderable
      * @param  mixed  $value
      * @return $this
      */
-    public function onepix_foodspotvendor_with($key, $value = null);
+    public function with($key, $value = null);
 
     /**
      * Get the array of view data.

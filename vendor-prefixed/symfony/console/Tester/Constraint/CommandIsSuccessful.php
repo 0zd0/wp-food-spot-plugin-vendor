@@ -16,7 +16,7 @@ use Onepix\FoodSpotVendor\Symfony\Component\Console\Command\Command;
 
 final class CommandIsSuccessful extends Constraint
 {
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return 'is successful';
     }

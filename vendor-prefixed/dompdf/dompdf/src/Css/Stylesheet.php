@@ -1354,7 +1354,7 @@ class Stylesheet
                 //      to better accommodate styling content in, for example, documents with varying page orientations
                 $this->load_css_file($url, $this->_current_origin);
                 break;
-                // stop here so we don't load the same CSS more than onepix_foodspotvendor_once (at least until we implement that TODO)
+                // stop here so we don't load the same CSS more than once (at least until we implement that TODO)
             }
         }
         // Restore the current base url

@@ -36,7 +36,7 @@ class InputOption
     public const VALUE_REQUIRED = 2;
 
     /**
-     * The option may or may not have a onepix_foodspotvendor_value (e.g. --yell or --yell=loud).
+     * The option may or may not have a value (e.g. --yell or --yell=loud).
      */
     public const VALUE_OPTIONAL = 4;
 
@@ -58,7 +58,7 @@ class InputOption
     /**
      * @param string|array|null                                                             $shortcut        The shortcuts, can be null, a string of shortcuts delimited by | or an array of shortcuts
      * @param int-mask-of<InputOption::*>|null                                              $mode            The option mode: One of the VALUE_* constants
-     * @param string|bool|int|float|array|null                                              $default         The default onepix_foodspotvendor_value (must be null for self::VALUE_NONE)
+     * @param string|bool|int|float|array|null                                              $default         The default value (must be null for self::VALUE_NONE)
      * @param array|\Closure(CompletionInput,CompletionSuggestions):list<string|Suggestion> $suggestedValues The values used for input completion
      *
      * @throws InvalidArgumentException If option mode is invalid or incompatible

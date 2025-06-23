@@ -328,7 +328,7 @@ trait EnumeratesValues
      * @param  TValueDefault|(\Closure(): TValueDefault)  $default
      * @return TValue|TValueDefault
      */
-    public function onepix_foodspotvendor_value($key, $default = null)
+    public function value($key, $default = null)
     {
         if ($value = $this->firstWhere($key)) {
             return onepix_foodspotvendor_data_get($value, $key, $default);
@@ -671,7 +671,7 @@ trait EnumeratesValues
     {
         $values = $this->getArrayableItems($values);
 
-        return $this->filter(fn ($item) => in_array(data_get($item, $key), $values, $strict));
+        return $this->filter(fn ($item) => in_array(onepix_foodspotvendor_data_get($item, $key), $values, $strict));
     }
 
     /**
@@ -724,7 +724,7 @@ trait EnumeratesValues
     {
         $values = $this->getArrayableItems($values);
 
-        return $this->reject(fn ($item) => in_array(data_get($item, $key), $values, $strict));
+        return $this->reject(fn ($item) => in_array(onepix_foodspotvendor_data_get($item, $key), $values, $strict));
     }
 
     /**
@@ -890,7 +890,7 @@ trait EnumeratesValues
      * @param  callable($this): mixed  $callback
      * @return $this
      */
-    public function onepix_foodspotvendor_tap(callable $callback)
+    public function tap(callable $callback)
     {
         $callback($this);
 
@@ -935,7 +935,7 @@ trait EnumeratesValues
      *
      * @return \Onepix\FoodSpotVendor\Illuminate\Support\Collection<TKey, TValue>
      */
-    public function onepix_foodspotvendor_collect()
+    public function collect()
     {
         return new Collection($this->all());
     }
@@ -1096,7 +1096,7 @@ trait EnumeratesValues
         }
 
         return function ($item) use ($key, $operator, $value) {
-            $retrieved = enum_value(data_get($item, $key));
+            $retrieved = enum_value(onepix_foodspotvendor_data_get($item, $key));
             $value = enum_value($value);
 
             $strings = array_filter([$retrieved, $value], function ($value) {

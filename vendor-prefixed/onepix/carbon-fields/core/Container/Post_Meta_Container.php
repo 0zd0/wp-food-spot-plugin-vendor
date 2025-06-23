@@ -56,7 +56,7 @@ class Post_Meta_Container extends Container {
 	}
 
 	/**
-	 * Create DataStore instance, set post ID to operate onepix_foodspotvendor_with (if such exists).
+	 * Create DataStore instance, set post ID to operate with (if such exists).
 	 * Bind attach() and save() to the appropriate WordPress actions.
 	 */
 	public function init() {

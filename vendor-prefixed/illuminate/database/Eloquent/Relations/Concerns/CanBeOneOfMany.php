@@ -286,7 +286,7 @@ trait CanBeOneOfMany
      */
     public function qualifySubSelectColumn($column)
     {
-        return $this->getRelationName().'.'.last(explode('.', $column));
+        return $this->getRelationName().'.'.onepix_foodspotvendor_last(explode('.', $column));
     }
 
     /**

@@ -874,9 +874,9 @@ class Grammar extends BaseGrammar
 
         $column = $this->wrap($having['column']);
 
-        $min = $this->parameter(head($having['values']));
+        $min = $this->parameter(onepix_foodspotvendor_head($having['values']));
 
-        $max = $this->parameter(last($having['values']));
+        $max = $this->parameter(onepix_foodspotvendor_last($having['values']));
 
         return $column.' '.$between.' '.$min.' and '.$max;
     }

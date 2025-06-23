@@ -323,7 +323,7 @@ class SqlserverSchemaDialect extends SchemaDialect
             return null;
         }
 
-        // remove () surrounding onepix_foodspotvendor_value (NULL) but leave () at the end of functions
+        // remove () surrounding value (NULL) but leave () at the end of functions
         // integers might have two ((0)) wrapping value
         if (preg_match('/^\(+(.*?(\(\))?)\)+$/', $default, $matches)) {
             $default = $matches[1];

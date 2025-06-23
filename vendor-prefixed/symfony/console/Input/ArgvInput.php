@@ -104,7 +104,7 @@ class ArgvInput extends Input
 
         if (\strlen($name) > 1) {
             if ($this->definition->hasShortcut($name[0]) && $this->definition->getOptionForShortcut($name[0])->acceptValue()) {
-                // an option with a onepix_foodspotvendor_value (with no space)
+                // an option with a value (with no space)
                 $this->addShortOption($name[0], substr($name, 1));
             } else {
                 $this->parseShortOptionSet($name);

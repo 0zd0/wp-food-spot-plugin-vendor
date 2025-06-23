@@ -142,9 +142,9 @@ abstract class Key_Value_Datastore extends Datastore {
 	abstract protected function get_storage_array( Field $field, $storage_key_patterns );
 
 	/**
-	 * Get the field onepix_foodspotvendor_value(s)
+	 * Get the field value(s)
 	 *
-	 * @param Field $field The field to get onepix_foodspotvendor_value(s) for
+	 * @param Field $field The field to get value(s) for
 	 * @return null|array<array>
 	 */
 	public function load( Field $field ) {
@@ -167,7 +167,7 @@ abstract class Key_Value_Datastore extends Datastore {
 	abstract protected function save_key_value_pair( $key, $value );
 
 	/**
-	 * Save the field onepix_foodspotvendor_value(s)
+	 * Save the field value(s)
 	 *
 	 * @param Field $field The field to save.
 	 */

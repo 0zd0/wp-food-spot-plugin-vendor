@@ -20,7 +20,7 @@ class ArrayObject extends BaseArrayObject implements Arrayable, JsonSerializable
      *
      * @return \Onepix\FoodSpotVendor\Illuminate\Support\Collection
      */
-    public function onepix_foodspotvendor_collect()
+    public function collect()
     {
         return new Collection($this->getArrayCopy());
     }

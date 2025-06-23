@@ -71,7 +71,7 @@ final class Decimal implements NumberInterface
         return $this->isNegative;
     }
 
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->value;
     }

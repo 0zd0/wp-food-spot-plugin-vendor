@@ -225,7 +225,7 @@ class Arr
      * @param  TLastDefault|(\Closure(): TLastDefault)  $default
      * @return TValue|TLastDefault
      */
-    public static function onepix_foodspotvendor_last($array, ?callable $callback = null, $default = null)
+    public static function last($array, ?callable $callback = null, $default = null)
     {
         if (is_null($callback)) {
             return empty($array) ? onepix_foodspotvendor_value($default) : end($array);

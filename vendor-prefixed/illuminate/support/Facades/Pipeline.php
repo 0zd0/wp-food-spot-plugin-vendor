@@ -11,7 +11,7 @@ namespace Onepix\FoodSpotVendor\Illuminate\Support\Facades;
  * @method static mixed thenReturn()
  * @method static \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline finally(\Closure $callback)
  * @method static \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline setContainer(\Onepix\FoodSpotVendor\Illuminate\Contracts\Container\Container $container)
- * @method static \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline|mixed onepix_foodspotvendor_when(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
+ * @method static \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline|mixed when(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
  * @method static \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline|mixed unless(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
  *
  * @see \Onepix\FoodSpotVendor\Illuminate\Pipeline\Pipeline

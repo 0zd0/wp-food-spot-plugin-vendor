@@ -1177,7 +1177,7 @@ class CarbonPeriod extends DatePeriodBase implements Countable, JsonSerializable
     /**
      * Convert the date period into a string.
      */
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         $format = $this->localToStringFormat ?? $this->getFactory()->getSettings()['toStringFormat'] ?? null;
         if ($format instanceof Closure) {
@@ -1299,7 +1299,7 @@ class CarbonPeriod extends DatePeriodBase implements Countable, JsonSerializable
     /**
      * Return the last date in the date period.
      */
-    public function onepix_foodspotvendor_last(): ?CarbonInterface
+    public function last(): ?CarbonInterface
     {
         $array = $this->toArray();
         return $array ? $array[\count($array) - 1] : null;

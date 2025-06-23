@@ -373,7 +373,7 @@ class PluginCollection implements Iterator, Countable
      * @return \Generator<\Onepix\FoodSpotVendor\Cake\Core\PluginInterface> A generator containing matching plugins.
      * @throws \InvalidArgumentException on invalid hooks
      */
-    public function onepix_foodspotvendor_with(string $hook): Generator
+    public function with(string $hook): Generator
     {
         if (!in_array($hook, PluginInterface::VALID_HOOKS, true)) {
             throw new InvalidArgumentException(sprintf('The `%s` hook is not a known plugin hook.', $hook));

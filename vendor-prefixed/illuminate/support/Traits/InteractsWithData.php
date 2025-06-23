@@ -85,7 +85,7 @@ trait InteractsWithData
     public function whenHas($key, callable $callback, ?callable $default = null)
     {
         if ($this->has($key)) {
-            return $callback(data_get($this->all(), $key)) ?: $this;
+            return $callback(onepix_foodspotvendor_data_get($this->all(), $key)) ?: $this;
         }
 
         if ($default) {
@@ -101,7 +101,7 @@ trait InteractsWithData
      * @param  string|array  $key
      * @return bool
      */
-    public function onepix_foodspotvendor_filled($key)
+    public function filled($key)
     {
         $keys = is_array($key) ? $key : func_get_args();
 
@@ -163,7 +163,7 @@ trait InteractsWithData
     public function whenFilled($key, callable $callback, ?callable $default = null)
     {
         if ($this->filled($key)) {
-            return $callback(data_get($this->all(), $key)) ?: $this;
+            return $callback(onepix_foodspotvendor_data_get($this->all(), $key)) ?: $this;
         }
 
         if ($default) {
@@ -197,7 +197,7 @@ trait InteractsWithData
     public function whenMissing($key, callable $callback, ?callable $default = null)
     {
         if ($this->missing($key)) {
-            return $callback(data_get($this->all(), $key)) ?: $this;
+            return $callback(onepix_foodspotvendor_data_get($this->all(), $key)) ?: $this;
         }
 
         if ($default) {
@@ -227,7 +227,7 @@ trait InteractsWithData
      * @param  mixed  $default
      * @return \Onepix\FoodSpotVendor\Illuminate\Support\Stringable
      */
-    public function onepix_foodspotvendor_str($key, $default = null)
+    public function str($key, $default = null)
     {
         return $this->string($key, $default);
     }
@@ -371,7 +371,7 @@ trait InteractsWithData
      * @param  array|string|null  $key
      * @return \Onepix\FoodSpotVendor\Illuminate\Support\Collection
      */
-    public function onepix_foodspotvendor_collect($key = null)
+    public function collect($key = null)
     {
         return new Collection(is_array($key) ? $this->only($key) : $this->data($key));
     }

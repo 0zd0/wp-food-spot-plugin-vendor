@@ -24,22 +24,22 @@ interface Datastore_Interface {
 	public function set_object_id( $object_id );
 
 	/**
-	 * Load the field onepix_foodspotvendor_value(s)
+	 * Load the field value(s)
 	 *
-	 * @param  Field $field The field to load onepix_foodspotvendor_value(s) in.
+	 * @param  Field $field The field to load value(s) in.
 	 * @return array
 	 */
 	public function load( Field $field );
 
 	/**
-	 * Save the field onepix_foodspotvendor_value(s)
+	 * Save the field value(s)
 	 *
 	 * @param Field $field The field to save.
 	 */
 	public function save( Field $field );
 
 	/**
-	 * Delete the field onepix_foodspotvendor_value(s)
+	 * Delete the field value(s)
 	 *
 	 * @param Field $field The field to delete.
 	 */

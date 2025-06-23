@@ -28,7 +28,7 @@ use RuntimeException;
  * This interface defines methods to access the elements at both ends of the
  * double-ended queue. Methods are provided to insert, remove, and examine the
  * element. Each of these methods exists in two forms: one throws an exception
- * if the operation fails, the other returns a special onepix_foodspotvendor_value (either `null` or
+ * if the operation fails, the other returns a special value (either `null` or
  * `false`, depending on the operation). The latter form of the insert operation
  * is designed specifically for use with capacity-restricted implementations; in
  * most implementations, insert operations cannot fail.

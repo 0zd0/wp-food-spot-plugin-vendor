@@ -93,7 +93,7 @@ interface UuidInterface extends
      *
      * @return non-empty-string
      */
-    public function onepix_foodspotvendor_toString(): string;
+    public function toString(): string;
 
     /**
      * Casts the UUID to the string standard representation

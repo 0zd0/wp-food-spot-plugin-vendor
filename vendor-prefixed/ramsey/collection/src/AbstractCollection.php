@@ -139,7 +139,7 @@ abstract class AbstractCollection extends AbstractArray implements CollectionInt
      *
      * @throws NoSuchElementException if this collection is empty.
      */
-    public function onepix_foodspotvendor_last(): mixed
+    public function last(): mixed
     {
         $lastIndex = array_key_last($this->data);
 

@@ -21,7 +21,7 @@ interface SurfaceInterface
     public function scale($x, $y);
     public function rotate($angle);
     public function translate($x, $y);
-    public function onepix_foodspotvendor_transform($a, $b, $c, $d, $e, $f);
+    public function transform($a, $b, $c, $d, $e, $f);
     // path ends
     public function beginPath();
     public function closePath();

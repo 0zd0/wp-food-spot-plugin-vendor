@@ -503,7 +503,7 @@ class Sleep
      * @param  (\Closure($this): bool)|bool  $condition
      * @return $this
      */
-    public function onepix_foodspotvendor_when($condition)
+    public function when($condition)
     {
         $this->shouldSleep = (bool) onepix_foodspotvendor_value($condition, $this);
 

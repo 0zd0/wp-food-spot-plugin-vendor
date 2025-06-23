@@ -32,7 +32,7 @@ namespace Onepix\FoodSpotVendor\Illuminate\Support\Facades;
  * @method static \Onepix\FoodSpotVendor\Psr\Log\LoggerInterface getLogger()
  * @method static \Onepix\FoodSpotVendor\Illuminate\Contracts\Events\Dispatcher getEventDispatcher()
  * @method static void setEventDispatcher(\Onepix\FoodSpotVendor\Illuminate\Contracts\Events\Dispatcher $dispatcher)
- * @method static \Illuminate\Log\Logger|mixed onepix_foodspotvendor_when(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
+ * @method static \Illuminate\Log\Logger|mixed when(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
  * @method static \Illuminate\Log\Logger|mixed unless(\Closure|mixed|null $value = null, callable|null $callback = null, callable|null $default = null)
  *
  * @see \Illuminate\Log\LogManager

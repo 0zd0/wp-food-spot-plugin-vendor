@@ -67,7 +67,7 @@ class Theme_Options_Datastore extends Key_Value_Datastore {
 	}
 
 	/**
-	 * Save the field onepix_foodspotvendor_value(s)
+	 * Save the field value(s)
 	 *
 	 * @param Field $field The field to save.
 	 */
@@ -99,7 +99,7 @@ class Theme_Options_Datastore extends Key_Value_Datastore {
 	}
 
 	/**
-	 * Delete the field onepix_foodspotvendor_value(s)
+	 * Delete the field value(s)
 	 *
 	 * @param Field $field The field to delete.
 	 */

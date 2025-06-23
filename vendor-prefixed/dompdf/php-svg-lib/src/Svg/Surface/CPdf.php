@@ -4295,7 +4295,7 @@ EOT;
     }
 
     /**
-     * set Field onepix_foodspotvendor_value (reference)
+     * set Field value (reference)
      *
      * @param integer $numFieldObj
      * @param integer $numObj Object number
@@ -4570,7 +4570,7 @@ EOT;
      *
      * @param array $tm transformation matrix
      */
-    function onepix_foodspotvendor_transform($tm)
+    function transform($tm)
     {
         $this->addContent(vsprintf("\n %.3F %.3F %.3F %.3F %.3F %.3F cm", $tm));
     }

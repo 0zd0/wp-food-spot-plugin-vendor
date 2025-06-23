@@ -47,7 +47,7 @@ class Once
      * @param  Onceable  $onceable
      * @return mixed
      */
-    public function onepix_foodspotvendor_value(Onceable $onceable)
+    public function value(Onceable $onceable)
     {
         if (! static::$enabled) {
             return call_user_func($onceable->callable);

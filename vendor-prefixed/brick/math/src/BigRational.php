@@ -365,13 +365,13 @@ final class BigRational extends BigNumber
     }
 
     #[Override]
-    public function onepix_foodspotvendor_toInt() : int
+    public function toInt() : int
     {
         return $this->toBigInteger()->toInt();
     }
 
     #[Override]
-    public function onepix_foodspotvendor_toFloat() : float
+    public function toFloat() : float
     {
         $simplified = $this->simplified();
         return $simplified->numerator->toFloat() / $simplified->denominator->toFloat();

@@ -47,7 +47,7 @@ final class Hexadecimal implements TypeInterface
     /**
      * @return non-empty-string
      */
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->value;
     }

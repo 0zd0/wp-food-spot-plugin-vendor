@@ -36,7 +36,7 @@ class CacheDataCollector extends DataCollector implements LateDataCollectorInter
         $this->instances[$name] = $instance;
     }
 
-    public function onepix_foodspotvendor_collect(Request $request, Response $response, ?\Throwable $exception = null): void
+    public function collect(Request $request, Response $response, ?\Throwable $exception = null): void
     {
         $this->lateCollect();
     }

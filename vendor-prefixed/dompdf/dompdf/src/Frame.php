@@ -336,7 +336,7 @@ class Frame
     /**
      * Block position
      *
-     * @param string|null $i The key of the wanted position onepix_foodspotvendor_value (x, y)
+     * @param string|null $i The key of the wanted position value (x, y)
      *
      * @return float[]|float
      */

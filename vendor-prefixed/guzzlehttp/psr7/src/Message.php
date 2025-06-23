@@ -15,7 +15,7 @@ final class Message
      *
      * @param MessageInterface $message Message to convert to a string.
      */
-    public static function onepix_foodspotvendor_toString(MessageInterface $message): string
+    public static function toString(MessageInterface $message): string
     {
         if ($message instanceof RequestInterface) {
             $msg = trim($message->getMethod().' '

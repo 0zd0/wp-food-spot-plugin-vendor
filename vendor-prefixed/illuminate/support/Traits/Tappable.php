@@ -10,7 +10,7 @@ trait Tappable
      * @param  (callable($this): mixed)|null  $callback
      * @return ($callback is null ? \Onepix\FoodSpotVendor\Illuminate\Support\HigherOrderTapProxy : $this)
      */
-    public function onepix_foodspotvendor_tap($callback = null)
+    public function tap($callback = null)
     {
         return onepix_foodspotvendor_tap($this, $callback);
     }

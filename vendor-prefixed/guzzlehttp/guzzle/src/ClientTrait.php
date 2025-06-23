@@ -56,7 +56,7 @@ trait ClientTrait
      *
      * @throws GuzzleException
      */
-    public function onepix_foodspotvendor_head($uri, array $options = []): ResponseInterface
+    public function head($uri, array $options = []): ResponseInterface
     {
         return $this->request('HEAD', $uri, $options);
     }

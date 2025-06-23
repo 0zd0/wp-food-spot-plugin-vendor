@@ -353,7 +353,7 @@ class QuestionHelper extends Helper
                 $ofs = 0;
 
                 foreach ($autocomplete($ret) as $value) {
-                    // If typed characters match the beginning chunk of onepix_foodspotvendor_value (e.g. [AcmeDe]moBundle)
+                    // If typed characters match the beginning chunk of value (e.g. [AcmeDe]moBundle)
                     if (str_starts_with($value, $tempRet)) {
                         $matches[$numMatches++] = $value;
                     }

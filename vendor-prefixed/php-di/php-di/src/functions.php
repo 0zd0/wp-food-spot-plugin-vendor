@@ -118,7 +118,7 @@ if (! function_exists('Onepix\FoodSpotVendor\DI\add')) {
      * or:
      *
      *     'log.backends' => \Onepix\FoodSpotVendor\DI\add([
-     *         onepix_foodspotvendor_DI\get('My\Custom\LogBackend')
+     *         DI\get('My\Custom\LogBackend')
      *     ])
      *
      * @param mixed|array $values A value or an array of values to add to the array.

@@ -261,7 +261,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
         $class = static::class;
         $booted = [];
         static::$traitInitializers[$class] = [];
-        foreach (class_uses_recursive($class) as $trait) {
+        foreach (onepix_foodspotvendor_class_uses_recursive($class) as $trait) {
             $method = 'boot' . onepix_foodspotvendor_class_basename($trait);
             if (method_exists($class, $method) && !in_array($method, $booted)) {
                 forward_static_call([$class, $method]);
@@ -580,7 +580,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      * @param  array|string  $relations
      * @return \Onepix\FoodSpotVendor\Illuminate\Database\Eloquent\Builder<static>
      */
-    public static function onepix_foodspotvendor_with($relations)
+    public static function with($relations)
     {
         return static::query()->with(is_string($relations) ? func_get_args() : $relations);
     }
@@ -1561,7 +1561,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      */
     public function getTable()
     {
-        return $this->table ?? Str::snake(Str::pluralStudly(class_basename($this)));
+        return $this->table ?? Str::snake(Str::pluralStudly(onepix_foodspotvendor_class_basename($this)));
     }
     /**
      * Set the table associated with the model.
@@ -1808,7 +1808,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      */
     public function getForeignKey()
     {
-        return Str::snake(class_basename($this)) . '_' . $this->getKeyName();
+        return Str::snake(onepix_foodspotvendor_class_basename($this)) . '_' . $this->getKeyName();
     }
     /**
      * Get the number of models to return per page.
@@ -1864,7 +1864,7 @@ abstract class Model implements Arrayable, ArrayAccess, CanBeEscapedWhenCastToSt
      */
     public function broadcastChannelRoute()
     {
-        return str_replace('\\', '.', get_class($this)) . '.{' . Str::camel(class_basename($this)) . '}';
+        return str_replace('\\', '.', get_class($this)) . '.{' . Str::camel(onepix_foodspotvendor_class_basename($this)) . '}';
     }
     /**
      * Get the broadcast channel name that is associated with the given entity.

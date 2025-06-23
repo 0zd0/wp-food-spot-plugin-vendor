@@ -18,7 +18,7 @@ trait Conditionable
      * @param  (callable($this, TWhenParameter): TWhenReturnType)|null  $default
      * @return $this|TWhenReturnType
      */
-    public function onepix_foodspotvendor_when($value = null, ?callable $callback = null, ?callable $default = null)
+    public function when($value = null, ?callable $callback = null, ?callable $default = null)
     {
         $value = $value instanceof Closure ? $value($this) : $value;
 

@@ -242,7 +242,7 @@ interface Canvas
      * @param float $e
      * @param float $f
      */
-    function onepix_foodspotvendor_transform($a, $b, $c, $d, $e, $f);
+    function transform($a, $b, $c, $d, $e, $f);
     /**
      * Draws a polygon
      *
@@ -332,7 +332,7 @@ interface Canvas
     /**
      * Add meta information to the PDF.
      *
-     * @param string $label Label of the onepix_foodspotvendor_value (Creator, Producer, etc.)
+     * @param string $label Label of the value (Creator, Producer, etc.)
      * @param string $value The text to set
      */
     public function add_info(string $label, string $value): void;

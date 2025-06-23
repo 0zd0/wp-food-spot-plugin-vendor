@@ -4,7 +4,7 @@
 
 namespace Onepix\FoodSpotVendor\Composer\Autoload;
 
-class ComposerStaticInite77ea5c0843dda28d2eb3d2dfa6880d7
+class ComposerStaticInitc110741a69210b334084b2988fa26ff4
 {
     public static $files = array (
         '0d9fd7ceab5af0a77026a4513dbe56e1' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -2504,9 +2504,9 @@ class ComposerStaticInite77ea5c0843dda28d2eb3d2dfa6880d7
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite77ea5c0843dda28d2eb3d2dfa6880d7::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite77ea5c0843dda28d2eb3d2dfa6880d7::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInite77ea5c0843dda28d2eb3d2dfa6880d7::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc110741a69210b334084b2988fa26ff4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc110741a69210b334084b2988fa26ff4::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc110741a69210b334084b2988fa26ff4::$classMap;
 
         }, null, ClassLoader::class);
     }

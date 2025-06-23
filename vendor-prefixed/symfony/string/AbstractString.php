@@ -535,7 +535,7 @@ abstract class AbstractString implements \Stringable, \JsonSerializable
         return new CodePointString($this->string);
     }
 
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->string;
     }

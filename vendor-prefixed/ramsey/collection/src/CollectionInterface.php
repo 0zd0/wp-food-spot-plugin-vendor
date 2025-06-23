@@ -114,7 +114,7 @@ interface CollectionInterface extends ArrayInterface
      *
      * @throws NoSuchElementException if this collection is empty.
      */
-    public function onepix_foodspotvendor_last(): mixed;
+    public function last(): mixed;
 
     /**
      * Sort the collection by a property, method, or array key with the given

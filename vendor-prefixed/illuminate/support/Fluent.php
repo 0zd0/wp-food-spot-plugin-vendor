@@ -90,7 +90,7 @@ class Fluent implements Arrayable, ArrayAccess, Jsonable, JsonSerializable
      * @param  mixed  $default
      * @return mixed
      */
-    public function onepix_foodspotvendor_value($key, $default = null)
+    public function value($key, $default = null)
     {
         if (array_key_exists($key, $this->attributes)) {
             return $this->attributes[$key];

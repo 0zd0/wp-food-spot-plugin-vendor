@@ -59,7 +59,7 @@ final class Integer implements NumberInterface
     /**
      * @return numeric-string
      */
-    public function onepix_foodspotvendor_toString(): string
+    public function toString(): string
     {
         return $this->value;
     }

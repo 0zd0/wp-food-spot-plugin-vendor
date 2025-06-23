@@ -135,7 +135,7 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\pluginSplit')) {
      *
      * Commonly used like
      * ```
-     * list($plugin, $name) = onepix_foodspotvendor_pluginSplit($name);
+     * list($plugin, $name) = pluginSplit($name);
      * ```
      *
      * @param string $name The name you want to plugin split.
@@ -165,7 +165,7 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\namespaceSplit')) {
     /**
      * Split the namespace from the classname.
      *
-     * Commonly used like `list($namespace, $className) = onepix_foodspotvendor_namespaceSplit($class);`.
+     * Commonly used like `list($namespace, $className) = namespaceSplit($class);`.
      *
      * @param string $class The full class name, ie `Cake\Core\App`.
      * @return array{0: string, 1: string} Array with 2 indexes. 0 => namespace, 1 => classname.
@@ -213,13 +213,13 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\pj')) {
      * JSON pretty print convenience function.
      *
      * In terminals this will act similar to using json_encode() with JSON_PRETTY_PRINT directly, when not run on CLI
-     * will also wrap `<pre>` tags around the output of given variable. Similar to onepix_foodspotvendor_pr().
+     * will also wrap `<pre>` tags around the output of given variable. Similar to pr().
      *
      * This function returns the same variable that was passed.
      *
      * @param mixed $var Variable to print out.
      * @return mixed the same $var that was passed to this function
-     * @see onepix_foodspotvendor_pr()
+     * @see pr()
      * @link https://book.cakephp.org/5/en/core-libraries/global-constants-and-functions.html#pj
      */
     function onepix_foodspotvendor_pj(mixed $var): mixed
@@ -255,7 +255,7 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\env')) {
                 return !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off';
             }
 
-            return str_starts_with((string)env('SCRIPT_URI'), 'https://');
+            return str_starts_with((string)onepix_foodspotvendor_env('SCRIPT_URI'), 'https://');
         }
 
         if ($key === 'SCRIPT_NAME' && onepix_foodspotvendor_env('CGI_MODE') && isset($_ENV['SCRIPT_URL'])) {
@@ -281,8 +281,8 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\env')) {
 
         switch ($key) {
             case 'DOCUMENT_ROOT':
-                $name = (string)env('SCRIPT_NAME');
-                $filename = (string)env('SCRIPT_FILENAME');
+                $name = (string)onepix_foodspotvendor_env('SCRIPT_NAME');
+                $filename = (string)onepix_foodspotvendor_env('SCRIPT_FILENAME');
                 $offset = 0;
                 if (!str_ends_with($name, '.php')) {
                     $offset = 4;
@@ -290,7 +290,7 @@ if (!function_exists('Onepix\FoodSpotVendor\Cake\Core\env')) {
 
                 return substr($filename, 0, -(strlen($name) + $offset));
             case 'PHP_SELF':
-                return str_replace((string)env('DOCUMENT_ROOT'), '', (string)env('SCRIPT_FILENAME'));
+                return str_replace((string)onepix_foodspotvendor_env('DOCUMENT_ROOT'), '', (string)onepix_foodspotvendor_env('SCRIPT_FILENAME'));
             case 'CGI_MODE':
                 return PHP_SAPI === 'cgi';
         }

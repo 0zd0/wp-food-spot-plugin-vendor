@@ -1252,7 +1252,7 @@ class BelongsToMany extends Relation
      */
     protected function guessInverseRelation()
     {
-        return Str::camel(Str::pluralStudly(class_basename($this->getParent())));
+        return Str::camel(Str::pluralStudly(onepix_foodspotvendor_class_basename($this->getParent())));
     }
 
     /**
@@ -1462,7 +1462,7 @@ class BelongsToMany extends Relation
             $grammar = $this->query->getQuery()->getGrammar();
 
             if ($grammar instanceof MySqlGrammar && $grammar->useLegacyGroupLimit($this->query->getQuery())) {
-                $column = 'pivot_'.last(explode('.', $column));
+                $column = 'pivot_'.onepix_foodspotvendor_last(explode('.', $column));
             }
 
             $this->query->groupLimit($value, $column);

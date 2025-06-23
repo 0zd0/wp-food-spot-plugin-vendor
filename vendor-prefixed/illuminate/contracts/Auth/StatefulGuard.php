@@ -19,7 +19,7 @@ interface StatefulGuard extends Guard
      * @param  array  $credentials
      * @return bool
      */
-    public function onepix_foodspotvendor_once(array $credentials = []);
+    public function once(array $credentials = []);
 
     /**
      * Log a user into the application.

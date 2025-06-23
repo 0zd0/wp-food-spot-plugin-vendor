@@ -114,7 +114,7 @@ function onepix_foodspotvendor_getOpenCollectiveSponsors(): string
     $list = array_filter($members, static fn (array $member): bool => $member['totalAmountDonated'] > 3 && $member['role'] !== 'HOST' && (
         $member['totalAmountDonated'] > 100 ||
         $member['lastTransactionAt'] > CarbonImmutable::now()
-            ->subMonthsNoOverflow(getMaxHistoryMonthsByAmount($member['lastTransactionAmount']))
+            ->subMonthsNoOverflow(onepix_foodspotvendor_getMaxHistoryMonthsByAmount($member['lastTransactionAmount']))
             ->format('Y-m-d h:i') ||
         $member['isActive'] && $member['lastTransactionAmount'] >= 30
     ));
@@ -240,7 +240,7 @@ function onepix_foodspotvendor_getOpenCollectiveSponsors(): string
 file_put_contents('readme.md', preg_replace_callback(
     '/(<!-- <open-collective-sponsors> -->)[\s\S]+(<!-- <\/open-collective-sponsors> -->)/',
     static function (array $match): string {
-        return $match[1].getOpenCollectiveSponsors().$match[2];
+        return $match[1].onepix_foodspotvendor_getOpenCollectiveSponsors().$match[2];
     },
     file_get_contents('readme.md'),
 ));

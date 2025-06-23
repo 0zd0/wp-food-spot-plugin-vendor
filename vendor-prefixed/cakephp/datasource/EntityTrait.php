@@ -500,7 +500,7 @@ trait EntityTrait
      * $entity->has(['name', 'last_name']);
      * ```
      *
-     * When checking multiple fields all fields must have a onepix_foodspotvendor_value (even `null`)
+     * When checking multiple fields all fields must have a value (even `null`)
      * present for the method to return `true`.
      *
      * @param array<string>|string $field The field or fields to check.

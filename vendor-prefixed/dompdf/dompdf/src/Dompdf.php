@@ -49,7 +49,7 @@ use Onepix\FoodSpotVendor\Masterminds\HTML5;
  * Layout, or reflow, proceeds recursively (post-order) starting at the root
  * of the document.  Space constraints (containing block width & height) are
  * pushed down, and resolved positions and sizes bubble up.  Thus, every
- * {@link Frame} in the document tree is traversed onepix_foodspotvendor_once (except for tables
+ * {@link Frame} in the document tree is traversed once (except for tables
  * which use a two-pass layout algorithm).  If you are interested in the
  * details, see the reflow() method of the Reflower classes.
  *
@@ -881,7 +881,7 @@ class Dompdf
     /**
      * Add meta information to the PDF after rendering.
      *
-     * @param string $label Label of the onepix_foodspotvendor_value (Creator, Producer, etc.)
+     * @param string $label Label of the value (Creator, Producer, etc.)
      * @param string $value The text to set
      */
     public function addInfo(string $label, string $value): void

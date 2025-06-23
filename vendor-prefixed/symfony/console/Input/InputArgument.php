@@ -31,7 +31,7 @@ class InputArgument
     public const REQUIRED = 1;
 
     /**
-     * Providing an argument is onepix_foodspotvendor_optional (e.g. 'app:foo' and 'app:foo bar' are both allowed). This is the default behavior of arguments.
+     * Providing an argument is optional (e.g. 'app:foo' and 'app:foo bar' are both allowed). This is the default behavior of arguments.
      */
     public const OPTIONAL = 2;
 
@@ -47,7 +47,7 @@ class InputArgument
      * @param string                                                                        $name            The argument name
      * @param int-mask-of<InputArgument::*>|null                                            $mode            The argument mode: a bit mask of self::REQUIRED, self::OPTIONAL and self::IS_ARRAY
      * @param string                                                                        $description     A description text
-     * @param string|bool|int|float|array|null                                              $default         The default onepix_foodspotvendor_value (for self::OPTIONAL mode only)
+     * @param string|bool|int|float|array|null                                              $default         The default value (for self::OPTIONAL mode only)
      * @param array|\Closure(CompletionInput,CompletionSuggestions):list<string|Suggestion> $suggestedValues The values used for input completion
      *
      * @throws InvalidArgumentException When argument mode is not valid

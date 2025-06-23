@@ -24,7 +24,7 @@ use Serializable;
  */
 interface TypeInterface extends JsonSerializable, Serializable
 {
-    public function onepix_foodspotvendor_toString(): string;
+    public function toString(): string;
 
     public function __toString(): string;
 }

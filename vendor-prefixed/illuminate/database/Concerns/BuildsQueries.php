@@ -569,7 +569,7 @@ trait BuildsQueries
      * @param  callable($this): mixed  $callback
      * @return $this
      */
-    public function onepix_foodspotvendor_tap($callback)
+    public function tap($callback)
     {
         $callback($this);
 

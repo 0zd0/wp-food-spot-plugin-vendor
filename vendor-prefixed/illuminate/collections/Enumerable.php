@@ -309,7 +309,7 @@ interface Enumerable extends Arrayable, Countable, IteratorAggregate, Jsonable, 
      * @param  (callable($this): TWhenReturnType)|null  $default
      * @return $this|TWhenReturnType
      */
-    public function onepix_foodspotvendor_when($value, ?callable $callback = null, ?callable $default = null);
+    public function when($value, ?callable $callback = null, ?callable $default = null);
 
     /**
      * Apply the callback if the collection is empty.
@@ -649,7 +649,7 @@ interface Enumerable extends Arrayable, Countable, IteratorAggregate, Jsonable, 
      * @param  TLastDefault|(\Closure(): TLastDefault)  $default
      * @return TValue|TLastDefault
      */
-    public function onepix_foodspotvendor_last(?callable $callback = null, $default = null);
+    public function last(?callable $callback = null, $default = null);
 
     /**
      * Run a map over each of the items.
@@ -1115,7 +1115,7 @@ interface Enumerable extends Arrayable, Countable, IteratorAggregate, Jsonable, 
      * @param  callable(TValue): mixed  $callback
      * @return $this
      */
-    public function onepix_foodspotvendor_tap(callable $callback);
+    public function tap(callable $callback);
 
     /**
      * Pass the enumerable to the given callback and return the result.
@@ -1244,7 +1244,7 @@ interface Enumerable extends Arrayable, Countable, IteratorAggregate, Jsonable, 
      *
      * @return \Onepix\FoodSpotVendor\Illuminate\Support\Collection<TKey, TValue>
      */
-    public function onepix_foodspotvendor_collect();
+    public function collect();
 
     /**
      * Get the collection of items as a plain array.

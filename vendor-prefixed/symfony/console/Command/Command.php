@@ -428,7 +428,7 @@ class Command implements SignalableCommandInterface
      * Adds an argument.
      *
      * @param                                                                               $mode            The argument mode: InputArgument::REQUIRED or InputArgument::OPTIONAL
-     * @param                                                                               $default         The default onepix_foodspotvendor_value (for InputArgument::OPTIONAL mode only)
+     * @param                                                                               $default         The default value (for InputArgument::OPTIONAL mode only)
      * @param array|\Closure(CompletionInput,CompletionSuggestions):list<string|Suggestion> $suggestedValues The values used for input completion
      *
      * @return $this
@@ -448,7 +448,7 @@ class Command implements SignalableCommandInterface
      *
      * @param                                                                               $shortcut        The shortcuts, can be null, a string of shortcuts delimited by | or an array of shortcuts
      * @param                                                                               $mode            The option mode: One of the InputOption::VALUE_* constants
-     * @param                                                                               $default         The default onepix_foodspotvendor_value (must be null for InputOption::VALUE_NONE)
+     * @param                                                                               $default         The default value (must be null for InputOption::VALUE_NONE)
      * @param array|\Closure(CompletionInput,CompletionSuggestions):list<string|Suggestion> $suggestedValues The values used for input completion
      *
      * @return $this
