@@ -159,7 +159,7 @@ class Nav_Menu_Item_Container extends Container {
 	 * Output the container markup
 	 */
 	public function render() {
-		include \Carbon_Fields\DIR . '/templates/Container/nav_menu_item.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Container/nav_menu_item.php';
 	}
 
 	/**

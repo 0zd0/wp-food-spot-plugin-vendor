@@ -39,6 +39,6 @@ class Incorrect_Syntax_Exception extends \Exception {
 		$errors = static::$errors;
 		$plural = count( $errors ) === 1 ? '' : 's';
 
-		include \Carbon_Fields\DIR . '/templates/Exception/incorrect-syntax.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Exception/incorrect-syntax.php';
 	}
 }

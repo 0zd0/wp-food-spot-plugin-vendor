@@ -207,7 +207,7 @@ class Theme_Options_Container extends Container {
 			$this->notifications[] = __( 'Settings saved.', 'carbon-fields' );
 		}
 
-		include \Carbon_Fields\DIR . '/templates/Container/' . $this->type . '.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Container/' . $this->type . '.php';
 	}
 
 	/**

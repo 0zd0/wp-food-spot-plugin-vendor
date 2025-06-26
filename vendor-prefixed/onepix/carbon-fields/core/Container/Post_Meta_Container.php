@@ -243,7 +243,7 @@ class Post_Meta_Container extends Container {
 	 * Output the container markup
 	 */
 	public function render() {
-		include \Carbon_Fields\DIR . '/templates/Container/post_meta.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Container/post_meta.php';
 	}
 
 	/**

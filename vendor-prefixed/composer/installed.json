@@ -2892,22 +2892,21 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.8.1",
-            "version_normalized": "4.8.1.0",
+            "version": "4.9.0",
+            "version_normalized": "4.9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28"
+                "reference": "4e0e23cc785f0724a0e838279a9eb03f28b092a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28",
-                "reference": "fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/4e0e23cc785f0724a0e838279a9eb03f28b092a0",
+                "reference": "4e0e23cc785f0724a0e838279a9eb03f28b092a0",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.8.8 || ^0.9 || ^0.10 || ^0.11 || ^0.12 || ^0.13",
-                "ext-json": "*",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
             },
@@ -2940,7 +2939,7 @@
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
                 "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
             },
-            "time": "2025-06-01T06:28:46+00:00",
+            "time": "2025-06-25T14:20:11+00:00",
             "type": "library",
             "extra": {
                 "captainhook": {
@@ -2968,23 +2967,23 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.8.1"
+                "source": "https://github.com/ramsey/uuid/tree/4.9.0"
             },
             "install-path": "../ramsey/uuid"
         },
         {
             "name": "robmorgan/phinx",
-            "version": "0.16.9",
-            "version_normalized": "0.16.9.0",
+            "version": "dev-dev",
+            "version_normalized": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cakephp/phinx.git",
-                "reference": "524ebdeb0e1838a845d752a3418726b38cd1e654"
+                "url": "https://github.com/0zd0/phinx.git",
+                "reference": "acdd42ab954f424f0c8a44ff5c0d9d0458a6ad7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/phinx/zipball/524ebdeb0e1838a845d752a3418726b38cd1e654",
-                "reference": "524ebdeb0e1838a845d752a3418726b38cd1e654",
+                "url": "https://api.github.com/repos/0zd0/phinx/zipball/acdd42ab954f424f0c8a44ff5c0d9d0458a6ad7d",
+                "reference": "acdd42ab954f424f0c8a44ff5c0d9d0458a6ad7d",
                 "shasum": ""
             },
             "require": {
@@ -3008,7 +3007,7 @@
                 "ext-pdo": "PDO extension is needed",
                 "symfony/yaml": "Install if using YAML configuration format"
             },
-            "time": "2025-05-25T16:07:44+00:00",
+            "time": "2025-06-26T16:54:21+00:00",
             "bin": [
                 "bin/phinx"
             ],
@@ -3019,7 +3018,38 @@
                     "Phinx\\": "src/Phinx/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\Phinx\\": "tests/Phinx/"
+                }
+            },
+            "scripts": {
+                "check": [
+                    "@test",
+                    "@cs-check"
+                ],
+                "cs-check": [
+                    "phpcs"
+                ],
+                "cs-fix": [
+                    "phpcbf"
+                ],
+                "stan": [
+                    "phpstan analyse"
+                ],
+                "stan-setup": [
+                    "cp composer.json composer.backup && composer require --dev phpstan/phpstan:~1.9.0 && mv composer.backup composer.json"
+                ],
+                "lowest": [
+                    "validate-prefer-lowest"
+                ],
+                "lowest-setup": [
+                    "composer update --prefer-lowest --prefer-stable --prefer-dist --no-interaction && cp composer.json composer.backup && composer require --dev dereuromark/composer-prefer-lowest && mv composer.backup composer.json"
+                ],
+                "test": [
+                    "phpunit --colors=always"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -3043,8 +3073,8 @@
                 },
                 {
                     "name": "CakePHP Community",
-                    "homepage": "https://github.com/cakephp/phinx/graphs/contributors",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "homepage": "https://github.com/cakephp/phinx/graphs/contributors"
                 }
             ],
             "description": "Phinx makes it ridiculously easy to manage the database migrations for your PHP app.",
@@ -3057,8 +3087,7 @@
                 "phinx"
             ],
             "support": {
-                "issues": "https://github.com/cakephp/phinx/issues",
-                "source": "https://github.com/cakephp/phinx/tree/0.16.9"
+                "source": "https://github.com/0zd0/phinx/tree/dev"
             },
             "install-path": "../robmorgan/phinx"
         },

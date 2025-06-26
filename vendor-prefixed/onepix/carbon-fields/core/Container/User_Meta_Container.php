@@ -177,7 +177,7 @@ class User_Meta_Container extends Container {
 			$profile_role = array_shift( $roles_to_shift );
 		}
 
-		include \Carbon_Fields\DIR . '/templates/Container/user_meta.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Container/user_meta.php';
 	}
 
 	/**

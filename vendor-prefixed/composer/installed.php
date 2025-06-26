@@ -520,9 +520,9 @@
     ),
     'ramsey/uuid' => 
     array (
-      'pretty_version' => '4.8.1',
-      'version' => '4.8.1.0',
-      'reference' => 'fdf4dd4e2ff1813111bd0ad58d7a1ddbb5b56c28',
+      'pretty_version' => '4.9.0',
+      'version' => '4.9.0.0',
+      'reference' => '4e0e23cc785f0724a0e838279a9eb03f28b092a0',
       'type' => 'library',
       'install_path' => __DIR__ . '/../ramsey/uuid',
       'aliases' => 
@@ -532,9 +532,9 @@
     ),
     'robmorgan/phinx' => 
     array (
-      'pretty_version' => '0.16.9',
-      'version' => '0.16.9.0',
-      'reference' => '524ebdeb0e1838a845d752a3418726b38cd1e654',
+      'pretty_version' => 'dev-dev',
+      'version' => 'dev-dev',
+      'reference' => 'acdd42ab954f424f0c8a44ff5c0d9d0458a6ad7d',
       'type' => 'library',
       'install_path' => __DIR__ . '/../robmorgan/phinx',
       'aliases' => 

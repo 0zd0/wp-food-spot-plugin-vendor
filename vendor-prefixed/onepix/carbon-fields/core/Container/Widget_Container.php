@@ -96,7 +96,7 @@ class Widget_Container extends Container {
 	 * Output the container markup
 	 */
 	public function render() {
-		include \Carbon_Fields\DIR . '/templates/Container/widget.php';
+		include \Onepix\FoodSpotVendor\Carbon_Fields\DIR . '/templates/Container/widget.php';
 	}
 
 	/**
