@@ -6,6 +6,9 @@
             "name": "onepix"
         }
     ],
+    "bin": [
+        "vendor-prefixed/robmorgan/phinx/bin/phinx"
+    ],
     "require": {
         "php": ">=8.2.0",
         "ext-json": "*"

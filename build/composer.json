@@ -13,6 +13,12 @@
       "../vendor-prefixed/illuminate/contracts"
     ]
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/0zd0/phinx"
+    }
+  ],
   "require": {
     "php": ">=8.2.0",
     "ext-json": "*",
@@ -21,7 +27,7 @@
     "guzzlehttp/guzzle": "^7.9",
     "php-di/php-di": "^7.0.7",
     "dbout/wp-orm": "^4.3",
-    "robmorgan/phinx": "^0.16",
+    "robmorgan/phinx": "dev-dev",
     "ramsey/uuid": "^4.7",
     "symfony/cache": "^7.2"
   },
