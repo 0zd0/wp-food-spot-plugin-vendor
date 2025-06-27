@@ -16,6 +16,10 @@
   "repositories": [
     {
       "type": "vcs",
+      "url": "https://github.com/0zd0/php-font-lib"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/0zd0/phinx"
     }
   ],
@@ -29,7 +33,8 @@
     "dbout/wp-orm": "^4.3",
     "robmorgan/phinx": "dev-dev",
     "ramsey/uuid": "^4.7",
-    "symfony/cache": "^7.2"
+    "symfony/cache": "^7.2",
+    "dompdf/php-font-lib": "dev-dev"
   },
   "extra": {
     "strauss": {
